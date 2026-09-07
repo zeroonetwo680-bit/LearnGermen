@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
-import { Award, BookOpenCheck, Flag, Target } from "lucide-react";
+import { Award, BookOpenCheck, Flame, Flag, Target } from "lucide-react";
+import type { WeeklyActivityPoint } from "@/lib/progress/analytics";
 
 export function OverallProgress({
   percent,
@@ -7,12 +8,20 @@ export function OverallProgress({
   totalLessons,
   attemptedLessons,
   averageBest,
+  weeklyStreak,
+  weeklyActiveDays,
+  bestWeek,
+  streakDays,
 }: {
   percent: number;
   completedLessons: number;
   totalLessons: number;
   attemptedLessons: number;
   averageBest: number;
+  weeklyStreak: number;
+  weeklyActiveDays: number;
+  bestWeek: number;
+  streakDays: WeeklyActivityPoint[];
 }) {
   const radius = 62;
   const circumference = 2 * Math.PI * radius;
@@ -21,19 +30,38 @@ export function OverallProgress({
 
   return (
     <section className="premium-card-strong rounded-[2rem] p-6 sm:p-8">
-      <div className="grid gap-8 xl:grid-cols-[1.2fr_0.8fr] xl:items-center">
+      <div className="grid gap-8 xl:grid-cols-[1.15fr_0.85fr] xl:items-center">
         <div>
           <div className="section-kicker">
             <Award className="size-3.5" />
             تقدمك في المنصة
           </div>
           <h2 className="mt-4 text-3xl font-black text-slate-900 dark:text-white">كل درس تنهيه يحوّل التعلم من قراءة إلى مهارة حقيقية</h2>
-          <p className="mt-4 text-sm leading-8 text-slate-600 dark:text-slate-300">اعتمد على التدرج: شرح، مفردات، تمرين، اختبار. وتابع كيف تتحول هذه الخطوات إلى قراءة بصرية واضحة داخل لوحة التقدم.</p>
+          <p className="mt-4 text-sm leading-8 text-slate-600 dark:text-slate-300">اعتمد على التدرج: شرح، مفردات، تمرين، اختبار. والآن أضف إليها عادة أسبوعية ثابتة لتبني تقدماً لا يعتمد على الصدفة.</p>
 
-          <div className="mt-6 grid gap-4 sm:grid-cols-3">
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             <MiniMetric label="الدروس المكتملة" value={`${completedLessons}/${totalLessons}`} icon={<BookOpenCheck className="size-4" />} />
             <MiniMetric label="دروس مختبرة" value={String(attemptedLessons)} icon={<Target className="size-4" />} />
             <MiniMetric label="مرحلة التعلّم" value={stage} icon={<Flag className="size-4" />} compact />
+            <MiniMetric label="السلسلة الأسبوعية" value={`${weeklyStreak} يوم`} icon={<Flame className="size-4" />} compact helper={`${weeklyActiveDays} أيام نشطة هذا الأسبوع`} />
+          </div>
+
+          <div className="mt-5 rounded-[1.6rem] border border-white/70 bg-white/75 p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950/70">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div>
+                <p className="text-sm font-bold text-slate-900 dark:text-white">خريطة نشاط الأسبوع</p>
+                <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">أفضل أسبوع لك حتى الآن: {bestWeek} / 7 أيام نشطة</p>
+              </div>
+              <div className="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-900 dark:bg-amber-950/50 dark:text-amber-300">سلسلة حالية {weeklyStreak}</div>
+            </div>
+            <div className="mt-4 grid grid-cols-7 gap-2 text-center text-xs">
+              {streakDays.map((day) => (
+                <div key={day.key} className={`rounded-[1rem] px-2 py-3 font-bold ${day.active ? "bg-slate-950 text-white dark:bg-white dark:text-slate-950" : "bg-slate-100 text-slate-400 dark:bg-slate-900 dark:text-slate-500"}`}>
+                  <p>{day.label}</p>
+                  <p className="mt-1 text-[11px] font-semibold opacity-80">{day.active ? day.totalActivities : "—"}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -90,16 +118,19 @@ function MiniMetric({
   value,
   icon,
   compact = false,
+  helper,
 }: {
   label: string;
   value: string;
   icon: ReactNode;
   compact?: boolean;
+  helper?: string;
 }) {
   return (
     <div className="premium-card rounded-[1.4rem] px-4 py-4">
       <div className="flex items-center gap-2 text-xs font-semibold text-slate-500 dark:text-slate-400">{icon}{label}</div>
       <p className={`mt-3 font-black text-slate-950 dark:text-white ${compact ? "text-xl" : "text-3xl"}`}>{value}</p>
+      {helper ? <p className="mt-2 text-xs leading-6 text-slate-500 dark:text-slate-400">{helper}</p> : null}
     </div>
   );
 }

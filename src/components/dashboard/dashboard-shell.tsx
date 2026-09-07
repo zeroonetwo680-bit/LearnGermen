@@ -1,17 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { Award, BookOpenCheck, BrainCircuit, RotateCcw, Trophy } from "lucide-react";
+import { Award, BookOpenCheck, BrainCircuit, Flame, RotateCcw, Trophy } from "lucide-react";
 import type { LessonSkill, LessonSummaryDto } from "@/lib/api/contracts/lesson";
 import { useLessons } from "@/lib/api/modules/lessons/hooks";
 import { useProgress, useResetProgress } from "@/lib/api/modules/progress/hooks";
 import { useUnits } from "@/lib/api/modules/units/hooks";
+import { buildQuizTrend, buildWeeklyStreak, getSkillMasteryTier, getSkillRecommendation } from "@/lib/progress/analytics";
+import { formatArabicNumber } from "@/lib/utils";
 import { ApiQueryError } from "@/components/shared/api-query-error";
 import { EmptyState } from "@/components/shared/empty-state";
 import { PageHeader } from "@/components/shared/page-header";
 import { AnalyticsStatCard } from "@/components/dashboard/analytics-stat-card";
+import { LearnerProgressReport } from "@/components/dashboard/learner-progress-report";
 import { MasteryBreakdown } from "@/components/dashboard/mastery-breakdown";
 import { OverallProgress } from "@/components/dashboard/overall-progress";
+import { QuizTrendHistory } from "@/components/dashboard/quiz-trend-history";
 import { RecentLearningActivity } from "@/components/dashboard/recent-learning-activity";
 import { SkillCoverageChart } from "@/components/dashboard/skill-coverage-chart";
 import { UnitProgressChart } from "@/components/dashboard/unit-progress-chart";
@@ -24,6 +28,13 @@ const skillLabels: Record<LessonSkill, string> = {
   numbers: "الأعداد",
   conversation: "المحادثة",
 };
+
+function getLearnerStage(percent: number) {
+  if (percent >= 85) return "إتقان قوي";
+  if (percent >= 60) return "تقدم ثابت";
+  if (percent >= 30) return "بداية ممتازة";
+  return "جاهز للانطلاق";
+}
 
 export function DashboardShell() {
   const progressQuery = useProgress();
@@ -39,8 +50,8 @@ export function DashboardShell() {
     return (
       <div className="space-y-6 py-8 sm:py-10">
         <div className="premium-card h-52 animate-pulse rounded-[2rem]" />
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {Array.from({ length: 4 }).map((_, index) => (
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
+          {Array.from({ length: 5 }).map((_, index) => (
             <div key={index} className="premium-card h-40 animate-pulse rounded-[1.7rem]" />
           ))}
         </div>
@@ -53,11 +64,12 @@ export function DashboardShell() {
   }
 
   const progress = progressQuery.data;
-  const lessons = lessonsQuery.data.items;
+  const lessons = [...lessonsQuery.data.items].sort((left, right) => left.number - right.number);
   const units = unitsQuery.data;
 
   const completed = lessons.filter((lesson) => progress.completedLessons.includes(lesson.id));
   const percent = lessons.length ? Math.round((completed.length / lessons.length) * 100) : 0;
+  const learnerStage = getLearnerStage(percent);
   const lessonMap = new Map(lessons.map((lesson) => [lesson.id, lesson]));
 
   const scoreEntries = Object.entries(progress.quizScores)
@@ -106,6 +118,26 @@ export function DashboardShell() {
             attemptedLessons.length,
         )
       : null;
+    const completionPercent = relevantLessons.length ? Math.round((completedLessons / relevantLessons.length) * 100) : 0;
+    const masteryPercent = averageSkillBest !== null ? Math.round(averageSkillBest * 0.72 + completionPercent * 0.28) : completionPercent;
+    const weakestLesson = [...attemptedLessons].sort(
+      (left, right) => (progress.quizScores[left.id]?.lastScore ?? 0) - (progress.quizScores[right.id]?.lastScore ?? 0),
+    )[0];
+    const nextLesson = relevantLessons.find((lesson) => !progress.completedLessons.includes(lesson.id));
+    const masteryTier = getSkillMasteryTier({
+      completionPercent,
+      averageBest: averageSkillBest,
+      attemptedLessons: attemptedLessons.length,
+      totalLessons: relevantLessons.length,
+    });
+    const recommendation = getSkillRecommendation({
+      skill: key,
+      tier: masteryTier,
+      attemptedLessons: attemptedLessons.length,
+      averageBest: averageSkillBest,
+      nextLesson,
+      weakestLesson,
+    });
 
     return {
       key,
@@ -113,8 +145,20 @@ export function DashboardShell() {
       totalLessons: relevantLessons.length,
       completedLessons,
       attemptedLessons: attemptedLessons.length,
-      completionPercent: relevantLessons.length ? Math.round((completedLessons / relevantLessons.length) * 100) : 0,
+      completionPercent,
       averageBest: averageSkillBest,
+      masteryPercent,
+      masteryTier,
+      thresholdLabel:
+        masteryTier === "mastered"
+          ? "85%+ مع إنجاز فعلي جيد"
+          : masteryTier === "building"
+            ? "70%+ أو تقدم واضح"
+            : "تحتاج جلسات مراجعة أقرب",
+      recommendationTitle: recommendation.title,
+      recommendation: recommendation.description,
+      recommendedLesson: recommendation.lesson,
+      recommendedLessonAction: recommendation.actionLabel,
     };
   });
 
@@ -122,51 +166,80 @@ export function DashboardShell() {
     .sort((left, right) => new Date(right.score.lastAttemptAt).getTime() - new Date(left.score.lastAttemptAt).getTime())
     .slice(0, 4);
 
+  const weeklyStreak = buildWeeklyStreak(progress.activityLog);
+  const lastSevenStart = new Date();
+  lastSevenStart.setHours(0, 0, 0, 0);
+  lastSevenStart.setDate(lastSevenStart.getDate() - 6);
+  const attemptsThisWeek = progress.quizHistory.filter((entry) => new Date(entry.completedAt) >= lastSevenStart).length;
+  const quizTrend = buildQuizTrend(progress.quizHistory, lessonMap);
+
   const lastVisited = progress.lastVisitedLessonId ? lessonMap.get(progress.lastVisitedLessonId) : undefined;
+  const strongestSkills = [...skillStats].sort((left, right) => right.masteryPercent - left.masteryPercent).slice(0, 3);
+  const focusSkills = [...skillStats]
+    .filter((skill) => skill.masteryTier !== "mastered")
+    .sort((left, right) => left.masteryPercent - right.masteryPercent)
+    .slice(0, 3);
+  const reportRecommendations = [
+    ...focusSkills.map((skill) =>
+      `${skill.label}: ${skill.recommendation}${skill.recommendedLesson ? ` — ${skill.recommendedLessonAction ?? "الدرس المقترح"}: ${skill.recommendedLesson.title}` : ""}`,
+    ),
+    ...(weeklyStreak.currentStreak < 3 ? [`ارفع وتيرة الأسبوع القادم إلى 3 أيام نشطة على الأقل للحفاظ على التعلم المتدرج.`] : []),
+  ].slice(0, 4);
 
   return (
     <div className="py-8 sm:py-10">
-      <PageHeader
-        title="لوحة التقدم والتحليلات"
-        description="مؤشرات مرئية لتقدمك، نتائجك، وتوزيع أدائك عبر الوحدات والمهارات."
-        eyebrow="متابعة التعلم"
-      />
+      <div className="space-y-6 print:hidden">
+        <PageHeader
+          title="لوحة التقدم والتحليلات"
+          description="مؤشرات مرئية لتقدمك، نتائجك، وسلوك التعلم الأسبوعي عبر الوحدات والمهارات والاختبارات."
+          eyebrow="متابعة التعلم"
+        />
 
-      <div className="space-y-6">
         <OverallProgress
           percent={percent}
           completedLessons={completed.length}
           totalLessons={lessons.length}
           attemptedLessons={scoreEntries.length}
           averageBest={averageBest}
+          weeklyStreak={weeklyStreak.currentStreak}
+          weeklyActiveDays={weeklyStreak.activeDays}
+          bestWeek={weeklyStreak.bestWindow}
+          streakDays={weeklyStreak.days}
         />
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
           <AnalyticsStatCard
             label="الدروس المكتملة"
-            value={String(completed.length)}
+            value={formatArabicNumber(completed.length)}
             subtitle="عدد الدروس التي وصلت فيها إلى مرحلة الإنهاء أو حفظ النتيجة."
             icon={<Award className="size-5 text-sky-600 dark:text-sky-400" />}
             accent="from-sky-500/25 via-cyan-500/15 to-transparent"
           />
           <AnalyticsStatCard
             label="إجمالي المحاولات"
-            value={String(totalAttempts)}
-            subtitle="كل محاولة اختبار تمنحك إشارة أوضح عن مدى ثباتك في التذكر." 
+            value={formatArabicNumber(totalAttempts)}
+            subtitle="كل محاولة اختبار تمنحك إشارة أوضح عن مدى ثباتك في التذكر."
             icon={<BrainCircuit className="size-5 text-violet-600 dark:text-violet-400" />}
             accent="from-violet-500/25 via-fuchsia-500/15 to-transparent"
           />
           <AnalyticsStatCard
             label="متوسط أفضل النتائج"
-            value={`${averageBest}%`}
-            subtitle="أفضل أداء وصلت إليه عبر الدروس التي جربت اختباراتها." 
+            value={`${formatArabicNumber(averageBest)}%`}
+            subtitle="أفضل أداء وصلت إليه عبر الدروس التي جربت اختباراتها."
             icon={<Trophy className="size-5 text-amber-500" />}
             accent="from-amber-500/25 via-orange-500/15 to-transparent"
           />
           <AnalyticsStatCard
+            label="السلسلة الحالية"
+            value={`${formatArabicNumber(weeklyStreak.currentStreak)} يوم`}
+            subtitle={`نشطت خلال ${formatArabicNumber(weeklyStreak.activeDays)} من آخر 7 أيام، وأفضل أسبوع لك ${formatArabicNumber(weeklyStreak.bestWindow)} أيام.`}
+            icon={<Flame className="size-5 text-rose-600 dark:text-rose-400" />}
+            accent="from-rose-500/25 via-orange-500/15 to-transparent"
+          />
+          <AnalyticsStatCard
             label="دروس متقنة"
-            value={String(masteredCount)}
-            subtitle="الدروس التي حققت فيها 85% أو أكثر في أفضل نتيجة محفوظة." 
+            value={formatArabicNumber(masteredCount)}
+            subtitle="الدروس التي حققت فيها 85% أو أكثر في أفضل نتيجة محفوظة."
             icon={<BookOpenCheck className="size-5 text-emerald-600 dark:text-emerald-400" />}
             accent="from-emerald-500/25 via-teal-500/15 to-transparent"
           />
@@ -182,12 +255,13 @@ export function DashboardShell() {
           />
         </div>
 
-        <div className="grid gap-6 2xl:grid-cols-[1fr_0.92fr]">
+        <div className="grid gap-6 2xl:grid-cols-[1fr_1fr]">
+          <QuizTrendHistory trend={quizTrend} attemptsThisWeek={attemptsThisWeek} />
           <SkillCoverageChart skills={skillStats} />
-          <RecentLearningActivity recentEntries={recentEntries} lastVisited={lastVisited} updatedAt={progress.updatedAt} />
         </div>
 
-        <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+        <div className="grid gap-6 2xl:grid-cols-[1fr_0.92fr]">
+          <RecentLearningActivity recentEntries={recentEntries} lastVisited={lastVisited} updatedAt={progress.updatedAt} />
           <section className="premium-card-strong rounded-[1.8rem] p-6">
             <div className="flex items-center justify-between gap-4">
               <div>
@@ -197,7 +271,7 @@ export function DashboardShell() {
               <button
                 type="button"
                 onClick={() => resetProgress.mutate()}
-                className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white/80 px-4 py-2 text-xs font-bold text-slate-700 transition hover:border-red-300 hover:text-red-700 dark:border-slate-700 dark:bg-slate-900/80 dark:text-slate-200 dark:hover:border-red-900 dark:hover:text-red-300"
+                className="button-shine pressable inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white/80 px-4 py-2 text-xs font-bold text-slate-700 transition hover:border-red-300 hover:text-red-700 dark:border-slate-700 dark:bg-slate-900/80 dark:text-slate-200 dark:hover:border-red-900 dark:hover:text-red-300"
               >
                 <RotateCcw className="size-3.5" />
                 إعادة التقدم
@@ -210,7 +284,7 @@ export function DashboardShell() {
                   <Link
                     key={lesson.id}
                     href={`/lessons/${lesson.slug}`}
-                    className="rounded-[1.35rem] border border-white/70 bg-white/75 px-4 py-4 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-200 dark:border-slate-800 dark:bg-slate-900/70 dark:hover:border-sky-900/50"
+                    className="interactive-lift rounded-[1.35rem] border border-white/70 bg-white/75 px-4 py-4 shadow-sm dark:border-slate-800 dark:bg-slate-900/70 dark:hover:border-sky-900/50"
                   >
                     <p className="text-xs font-semibold text-sky-700 dark:text-sky-400">{lesson.unitTitle}</p>
                     <p className="mt-2 font-bold text-slate-950 dark:text-white">{lesson.title}</p>
@@ -222,39 +296,59 @@ export function DashboardShell() {
               <EmptyState
                 title="لم تبدأ بعد"
                 description="ابدأ من الدرس الأول أو ادخل إلى أي وحدة تعجبك، وستبدأ التحليلات بالظهور هنا تلقائياً."
-                action={<Link href="/lessons" className="rounded-full bg-sky-600 px-4 py-2 text-sm font-semibold text-white">ابدأ التعلم</Link>}
+                action={<Link href="/lessons" className="button-shine pressable rounded-full bg-sky-600 px-4 py-2 text-sm font-semibold text-white">ابدأ التعلم</Link>}
               />
             )}
           </section>
+        </div>
 
-          <section className="premium-card-strong rounded-[1.8rem] p-6">
-            <h2 className="text-xl font-black text-slate-900 dark:text-white">أفضل الدرجات</h2>
-            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">لوحة ترتيب صغيرة تساعدك على معرفة أقوى نتائجك الحالية.</p>
+        <section className="premium-card-strong rounded-[1.8rem] p-6">
+          <h2 className="text-xl font-black text-slate-900 dark:text-white">أفضل الدرجات</h2>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">لوحة ترتيب صغيرة تساعدك على معرفة أقوى نتائجك الحالية.</p>
 
-            {scoreEntries.length ? (
-              <div className="mt-5 space-y-3">
-                {scoreEntries.slice(0, 5).map((entry, index) => (
-                  <div key={entry.lesson.id} className="rounded-[1.35rem] border border-white/70 bg-white/75 px-4 py-4 shadow-sm dark:border-slate-800 dark:bg-slate-900/70">
-                    <div className="flex items-start justify-between gap-4">
-                      <div>
-                        <p className="text-xs font-semibold text-amber-700 dark:text-amber-400">المركز {index + 1}</p>
-                        <Link href={`/lessons/${entry.lesson.slug}`} className="mt-2 block font-bold text-slate-950 hover:text-sky-700 dark:text-white dark:hover:text-sky-400">
-                          {entry.lesson.title}
-                        </Link>
-                        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">أفضل نتيجة: {entry.score.bestScore}% — المحاولات: {entry.score.attempts}</p>
-                      </div>
-                      <div className="rounded-full bg-amber-100 px-3 py-2 text-sm font-black text-amber-900 dark:bg-amber-950/60 dark:text-amber-300">
-                        {entry.score.bestScore}%
-                      </div>
+          {scoreEntries.length ? (
+            <div className="mt-5 grid gap-3 xl:grid-cols-2">
+              {scoreEntries.slice(0, 6).map((entry, index) => (
+                <div key={entry.lesson.id} className="rounded-[1.35rem] border border-white/70 bg-white/75 px-4 py-4 shadow-sm dark:border-slate-800 dark:bg-slate-900/70">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <p className="text-xs font-semibold text-amber-700 dark:text-amber-400">المركز {index + 1}</p>
+                      <Link href={`/lessons/${entry.lesson.slug}`} className="mt-2 block font-bold text-slate-950 hover:text-sky-700 dark:text-white dark:hover:text-sky-400">
+                        {entry.lesson.title}
+                      </Link>
+                      <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">أفضل نتيجة: {entry.score.bestScore}% — المحاولات: {entry.score.attempts}</p>
+                    </div>
+                    <div className="rounded-full bg-amber-100 px-3 py-2 text-sm font-black text-amber-900 dark:bg-amber-950/60 dark:text-amber-300">
+                      {entry.score.bestScore}%
                     </div>
                   </div>
-                ))}
-              </div>
-            ) : (
-              <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">لا توجد نتائج محفوظة بعد. جرّب أول اختبار لتبدأ لوحة الأداء.</p>
-            )}
-          </section>
-        </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">لا توجد نتائج محفوظة بعد. جرّب أول اختبار لتبدأ لوحة الأداء.</p>
+          )}
+        </section>
+      </div>
+
+      <div className="mt-6 print:mt-0">
+        <LearnerProgressReport
+          learnerStage={learnerStage}
+          startedAt={progress.startedAt}
+          updatedAt={progress.updatedAt}
+          percent={percent}
+          completedLessons={completed.length}
+          totalLessons={lessons.length}
+          averageBest={averageBest}
+          totalAttempts={totalAttempts}
+          weeklyStreak={weeklyStreak.currentStreak}
+          activeDaysThisWeek={weeklyStreak.activeDays}
+          strongestSkills={strongestSkills}
+          focusSkills={focusSkills}
+          unitProgress={unitProgress}
+          topResults={scoreEntries.slice(0, 5)}
+          recommendations={reportRecommendations.length ? reportRecommendations : ["ابدأ أول اختبارين على الأقل لتوليد توصيات أدق داخل التقرير."]}
+        />
       </div>
     </div>
   );

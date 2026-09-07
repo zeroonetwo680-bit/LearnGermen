@@ -237,10 +237,32 @@ export const lessonScoreSchema = z.object({
   lastAttemptAt: z.string(),
 });
 
+export const quizHistoryEntrySchema = z.object({
+  attemptId: z.string(),
+  lessonId: z.string(),
+  score: z.number().int().nonnegative(),
+  total: z.number().int().nonnegative(),
+  percent: z.number().int().nonnegative().max(100),
+  correctCount: z.number().int().nonnegative(),
+  incorrectCount: z.number().int().nonnegative(),
+  completedAt: z.string(),
+});
+
+export const learningActivityEntrySchema = z.object({
+  id: z.string(),
+  lessonId: z.string(),
+  type: z.enum(["visit", "complete", "quiz"]),
+  occurredAt: z.string(),
+  percent: z.number().int().nonnegative().max(100).optional(),
+});
+
 export const progressSchema = z.object({
   version: z.literal(1),
+  startedAt: z.string().optional(),
   completedLessons: z.array(z.string()),
   quizScores: z.record(z.string(), lessonScoreSchema),
+  quizHistory: z.array(quizHistoryEntrySchema).optional(),
+  activityLog: z.array(learningActivityEntrySchema).optional(),
   lastVisitedLessonId: z.string().optional(),
   updatedAt: z.string(),
 });

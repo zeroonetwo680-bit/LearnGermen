@@ -289,6 +289,31 @@ body::before {
   transform: scale(0.985);
 }
 
+@media print {
+  body,
+  .dark body {
+    background: white !important;
+    color: #0f172a !important;
+  }
+
+  body::before,
+  header,
+  footer {
+    display: none !important;
+  }
+
+  .premium-card,
+  .premium-card-strong {
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

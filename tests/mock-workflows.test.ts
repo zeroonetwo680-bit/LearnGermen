@@ -134,10 +134,34 @@ describe("mock workflows", () => {
     expect(progress.completedLessons).toHaveLength(1);
     expect(progress.quizScores["lesson-01"].bestScore).toBe(100);
     expect(progress.quizScores["lesson-01"].attempts).toBe(2);
+    expect(progress.quizHistory).toHaveLength(2);
+    expect(progress.activityLog.some((entry) => entry.type === "quiz")).toBe(true);
+    expect(progress.startedAt).toEqual(expect.any(String));
+
+    window.localStorage.setItem(
+      "learngerman-progress-v1",
+      JSON.stringify({
+        version: 1,
+        completedLessons: ["lesson-01"],
+        quizScores: {
+          "lesson-01": {
+            bestScore: 100,
+            attempts: 2,
+            lastScore: 100,
+            lastAttemptAt: new Date().toISOString(),
+          },
+        },
+        updatedAt: new Date().toISOString(),
+      }),
+    );
+    const migrated = await repo.get();
+    expect(migrated.quizHistory.length).toBeGreaterThan(0);
+    expect(migrated.activityLog.length).toBeGreaterThan(0);
 
     window.localStorage.setItem("learngerman-progress-v1", "not-json");
     const afterCorruption = await repo.get();
     expect(afterCorruption.completedLessons).toEqual([]);
+    expect(afterCorruption.quizHistory).toEqual([]);
   });
 
   test("lesson navigation works across units", async () => {
