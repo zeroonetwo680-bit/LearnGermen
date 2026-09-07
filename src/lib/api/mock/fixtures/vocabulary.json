@@ -1,0 +1,1639 @@
+[
+  {
+    "id": "v-01-1",
+    "lessonId": "lesson-01",
+    "german": "Apfel",
+    "transliterationAr": "أبفل",
+    "meaningAr": "تفاحة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ],
+    "exampleGerman": "Baum",
+    "exampleTransliterationAr": "باوم",
+    "exampleMeaningAr": "شجرة"
+  },
+  {
+    "id": "v-01-2",
+    "lessonId": "lesson-01",
+    "german": "Baum",
+    "transliterationAr": "باوم",
+    "meaningAr": "شجرة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ],
+    "exampleGerman": "Fisch",
+    "exampleTransliterationAr": "فيش",
+    "exampleMeaningAr": "سمكة"
+  },
+  {
+    "id": "v-01-3",
+    "lessonId": "lesson-01",
+    "german": "Café",
+    "transliterationAr": "كافيه",
+    "meaningAr": "مقهى",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ],
+    "exampleGerman": "Haus",
+    "exampleTransliterationAr": "هاوس",
+    "exampleMeaningAr": "بيت"
+  },
+  {
+    "id": "v-01-4",
+    "lessonId": "lesson-01",
+    "german": "Dach",
+    "transliterationAr": "داخ",
+    "meaningAr": "سقف",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-5",
+    "lessonId": "lesson-01",
+    "german": "Ente",
+    "transliterationAr": "إنته",
+    "meaningAr": "بطة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-6",
+    "lessonId": "lesson-01",
+    "german": "Fisch",
+    "transliterationAr": "فيش",
+    "meaningAr": "سمكة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-7",
+    "lessonId": "lesson-01",
+    "german": "Geld",
+    "transliterationAr": "غيلد",
+    "meaningAr": "مال",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-8",
+    "lessonId": "lesson-01",
+    "german": "Haus",
+    "transliterationAr": "هاوس",
+    "meaningAr": "بيت",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-9",
+    "lessonId": "lesson-01",
+    "german": "Igel",
+    "transliterationAr": "إيجل",
+    "meaningAr": "قنفذ",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-10",
+    "lessonId": "lesson-01",
+    "german": "Jahr",
+    "transliterationAr": "يار",
+    "meaningAr": "سنة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-11",
+    "lessonId": "lesson-01",
+    "german": "Kind",
+    "transliterationAr": "كيند",
+    "meaningAr": "طفل",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-01-12",
+    "lessonId": "lesson-01",
+    "german": "Zug",
+    "transliterationAr": "تسوج",
+    "meaningAr": "قطار",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-02-1",
+    "lessonId": "lesson-02",
+    "german": "Europa",
+    "transliterationAr": "أوروبا",
+    "meaningAr": "أوروبا",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "exampleGerman": "Straße",
+    "exampleTransliterationAr": "شتراسه",
+    "exampleMeaningAr": "شارع"
+  },
+  {
+    "id": "v-02-2",
+    "lessonId": "lesson-02",
+    "german": "Deutsch",
+    "transliterationAr": "دويتش",
+    "meaningAr": "ألماني",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "exampleGerman": "Frau",
+    "exampleTransliterationAr": "فراو",
+    "exampleMeaningAr": "سيدة"
+  },
+  {
+    "id": "v-02-3",
+    "lessonId": "lesson-02",
+    "german": "Frankreich",
+    "transliterationAr": "فرانكرايش",
+    "meaningAr": "فرنسا",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "exampleGerman": "Übung",
+    "exampleTransliterationAr": "إيبونغ",
+    "exampleMeaningAr": "تمرين"
+  },
+  {
+    "id": "v-02-4",
+    "lessonId": "lesson-02",
+    "german": "Griechenland",
+    "transliterationAr": "غريشنلاند",
+    "meaningAr": "اليونان",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ]
+  },
+  {
+    "id": "v-02-5",
+    "lessonId": "lesson-02",
+    "german": "Spanien",
+    "transliterationAr": "شبانيين",
+    "meaningAr": "إسبانيا",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ]
+  },
+  {
+    "id": "v-02-6",
+    "lessonId": "lesson-02",
+    "german": "Straße",
+    "transliterationAr": "شتراسه",
+    "meaningAr": "شارع",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "article": "die",
+    "plural": "Straßen"
+  },
+  {
+    "id": "v-02-7",
+    "lessonId": "lesson-02",
+    "german": "Stadt",
+    "transliterationAr": "شتات",
+    "meaningAr": "مدينة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "article": "die",
+    "plural": "Städte"
+  },
+  {
+    "id": "v-02-8",
+    "lessonId": "lesson-02",
+    "german": "Schule",
+    "transliterationAr": "شوله",
+    "meaningAr": "مدرسة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "article": "die",
+    "plural": "Schulen"
+  },
+  {
+    "id": "v-02-9",
+    "lessonId": "lesson-02",
+    "german": "Australien",
+    "transliterationAr": "أوستراليين",
+    "meaningAr": "أستراليا",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ]
+  },
+  {
+    "id": "v-02-10",
+    "lessonId": "lesson-02",
+    "german": "Frau",
+    "transliterationAr": "فراو",
+    "meaningAr": "سيدة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "article": "die",
+    "plural": "Frauen"
+  },
+  {
+    "id": "v-02-11",
+    "lessonId": "lesson-02",
+    "german": "Übung",
+    "transliterationAr": "إيبونغ",
+    "meaningAr": "تمرين",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "article": "die",
+    "plural": "Übungen"
+  },
+  {
+    "id": "v-02-12",
+    "lessonId": "lesson-02",
+    "german": "Lehrer",
+    "transliterationAr": "ليرر",
+    "meaningAr": "أستاذ",
+    "partOfSpeech": "noun",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت"
+    ],
+    "article": "der",
+    "plural": "Lehrer"
+  },
+  {
+    "id": "v-03-1",
+    "lessonId": "lesson-03",
+    "german": "schließen",
+    "transliterationAr": "شليسن",
+    "meaningAr": "يغلق",
+    "partOfSpeech": "verb",
+    "tags": [
+      "ch",
+      "ß"
+    ],
+    "exampleGerman": "schließen",
+    "exampleTransliterationAr": "شليسن",
+    "exampleMeaningAr": "يغلق"
+  },
+  {
+    "id": "v-03-2",
+    "lessonId": "lesson-03",
+    "german": "Klasse",
+    "transliterationAr": "كلاسه",
+    "meaningAr": "صف",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ch",
+      "ß"
+    ],
+    "article": "die",
+    "plural": "Klassen",
+    "exampleGerman": "Klasse",
+    "exampleTransliterationAr": "كلاسه",
+    "exampleMeaningAr": "صف"
+  },
+  {
+    "id": "v-03-3",
+    "lessonId": "lesson-03",
+    "german": "Nacht",
+    "transliterationAr": "ناخت",
+    "meaningAr": "ليل",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ch",
+      "ß"
+    ],
+    "article": "die",
+    "plural": "Nächte",
+    "exampleGerman": "Reich",
+    "exampleTransliterationAr": "رايش",
+    "exampleMeaningAr": "دولة / مملكة"
+  },
+  {
+    "id": "v-03-4",
+    "lessonId": "lesson-03",
+    "german": "Hoch",
+    "transliterationAr": "هوخ",
+    "meaningAr": "عالٍ",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "ch",
+      "ß"
+    ]
+  },
+  {
+    "id": "v-03-5",
+    "lessonId": "lesson-03",
+    "german": "Buch",
+    "transliterationAr": "بوخ",
+    "meaningAr": "كتاب",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ch",
+      "ß"
+    ],
+    "article": "das",
+    "plural": "Bücher"
+  },
+  {
+    "id": "v-03-6",
+    "lessonId": "lesson-03",
+    "german": "Ich",
+    "transliterationAr": "إيش",
+    "meaningAr": "أنا",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ch",
+      "ß"
+    ]
+  },
+  {
+    "id": "v-03-7",
+    "lessonId": "lesson-03",
+    "german": "Reich",
+    "transliterationAr": "رايش",
+    "meaningAr": "دولة / مملكة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ch",
+      "ß"
+    ],
+    "article": "das",
+    "plural": "Reiche"
+  },
+  {
+    "id": "v-03-8",
+    "lessonId": "lesson-03",
+    "german": "Nation",
+    "transliterationAr": "ناتسيون",
+    "meaningAr": "أمة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ch",
+      "ß"
+    ],
+    "article": "die",
+    "plural": "Nationen"
+  },
+  {
+    "id": "v-04-1",
+    "lessonId": "lesson-04",
+    "german": "der Mann",
+    "transliterationAr": "دير مان",
+    "meaningAr": "الرجل",
+    "partOfSpeech": "noun",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ],
+    "article": "der",
+    "plural": "Männer",
+    "exampleGerman": "der Mann",
+    "exampleTransliterationAr": "دير مان",
+    "exampleMeaningAr": "الرجل"
+  },
+  {
+    "id": "v-04-2",
+    "lessonId": "lesson-04",
+    "german": "die Frau",
+    "transliterationAr": "دي فراو",
+    "meaningAr": "المرأة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ],
+    "article": "die",
+    "plural": "Frauen",
+    "exampleGerman": "die Frau",
+    "exampleTransliterationAr": "دي فراو",
+    "exampleMeaningAr": "المرأة"
+  },
+  {
+    "id": "v-04-3",
+    "lessonId": "lesson-04",
+    "german": "das Kind",
+    "transliterationAr": "داس كيند",
+    "meaningAr": "الطفل",
+    "partOfSpeech": "noun",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ],
+    "article": "das",
+    "plural": "Kinder",
+    "exampleGerman": "das Kind",
+    "exampleTransliterationAr": "داس كيند",
+    "exampleMeaningAr": "الطفل"
+  },
+  {
+    "id": "v-04-4",
+    "lessonId": "lesson-04",
+    "german": "Dieser",
+    "transliterationAr": "ديزر",
+    "meaningAr": "هذا للمذكر",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ]
+  },
+  {
+    "id": "v-04-5",
+    "lessonId": "lesson-04",
+    "german": "Diese",
+    "transliterationAr": "ديزه",
+    "meaningAr": "هذه للمؤنث",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ]
+  },
+  {
+    "id": "v-04-6",
+    "lessonId": "lesson-04",
+    "german": "Dieses",
+    "transliterationAr": "ديزس",
+    "meaningAr": "هذا للمحايد",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ]
+  },
+  {
+    "id": "v-04-7",
+    "lessonId": "lesson-04",
+    "german": "ein",
+    "transliterationAr": "آين",
+    "meaningAr": "أداة تنكير",
+    "partOfSpeech": "other",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ]
+  },
+  {
+    "id": "v-04-8",
+    "lessonId": "lesson-04",
+    "german": "kein",
+    "transliterationAr": "كاين",
+    "meaningAr": "نفي / لا يوجد",
+    "partOfSpeech": "other",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ]
+  },
+  {
+    "id": "v-04-9",
+    "lessonId": "lesson-04",
+    "german": "nichts",
+    "transliterationAr": "نيشتس",
+    "meaningAr": "لا شيء",
+    "partOfSpeech": "other",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف"
+    ]
+  },
+  {
+    "id": "v-05-1",
+    "lessonId": "lesson-05",
+    "german": "er",
+    "transliterationAr": "إير",
+    "meaningAr": "هو",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ],
+    "exampleGerman": "Er ist hier.",
+    "exampleTransliterationAr": "إير إيست هير",
+    "exampleMeaningAr": "هو هنا."
+  },
+  {
+    "id": "v-05-2",
+    "lessonId": "lesson-05",
+    "german": "sie",
+    "transliterationAr": "زي",
+    "meaningAr": "هي / هم",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ],
+    "exampleGerman": "Sie kommt heute.",
+    "exampleTransliterationAr": "زي كومت هويته",
+    "exampleMeaningAr": "هي تأتي اليوم."
+  },
+  {
+    "id": "v-05-3",
+    "lessonId": "lesson-05",
+    "german": "es",
+    "transliterationAr": "إس",
+    "meaningAr": "هو لغير العاقل / المحايد",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ],
+    "exampleGerman": "Ich bin hier.",
+    "exampleTransliterationAr": "إيش بين هير",
+    "exampleMeaningAr": "أنا هنا."
+  },
+  {
+    "id": "v-05-4",
+    "lessonId": "lesson-05",
+    "german": "ich",
+    "transliterationAr": "إيش",
+    "meaningAr": "أنا",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ]
+  },
+  {
+    "id": "v-05-5",
+    "lessonId": "lesson-05",
+    "german": "du",
+    "transliterationAr": "دو",
+    "meaningAr": "أنت",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ]
+  },
+  {
+    "id": "v-05-6",
+    "lessonId": "lesson-05",
+    "german": "wir",
+    "transliterationAr": "فير",
+    "meaningAr": "نحن",
+    "partOfSpeech": "pronoun",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ]
+  },
+  {
+    "id": "v-05-7",
+    "lessonId": "lesson-05",
+    "german": "hier",
+    "transliterationAr": "هير",
+    "meaningAr": "هنا",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ]
+  },
+  {
+    "id": "v-05-8",
+    "lessonId": "lesson-05",
+    "german": "kommen",
+    "transliterationAr": "كومن",
+    "meaningAr": "يأتي",
+    "partOfSpeech": "verb",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ]
+  },
+  {
+    "id": "v-05-9",
+    "lessonId": "lesson-05",
+    "german": "bin",
+    "transliterationAr": "بين",
+    "meaningAr": "أكون",
+    "partOfSpeech": "verb",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة"
+    ]
+  },
+  {
+    "id": "v-06-1",
+    "lessonId": "lesson-06",
+    "german": "in",
+    "transliterationAr": "إن",
+    "meaningAr": "في / داخل",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ],
+    "exampleGerman": "in der Stadt",
+    "exampleTransliterationAr": "إن دير شتات",
+    "exampleMeaningAr": "في المدينة"
+  },
+  {
+    "id": "v-06-2",
+    "lessonId": "lesson-06",
+    "german": "nach",
+    "transliterationAr": "ناخ",
+    "meaningAr": "إلى / نحو",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ],
+    "exampleGerman": "zu Hause",
+    "exampleTransliterationAr": "تسو هاوزه",
+    "exampleMeaningAr": "إلى البيت / في البيت بحسب السياق"
+  },
+  {
+    "id": "v-06-3",
+    "lessonId": "lesson-06",
+    "german": "zu",
+    "transliterationAr": "تسو",
+    "meaningAr": "إلى",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ],
+    "exampleGerman": "die Kinder",
+    "exampleTransliterationAr": "دي كيندر",
+    "exampleMeaningAr": "الأطفال"
+  },
+  {
+    "id": "v-06-4",
+    "lessonId": "lesson-06",
+    "german": "bis",
+    "transliterationAr": "بيس",
+    "meaningAr": "حتى",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ]
+  },
+  {
+    "id": "v-06-5",
+    "lessonId": "lesson-06",
+    "german": "über",
+    "transliterationAr": "إيبر",
+    "meaningAr": "عبر / فوق",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ]
+  },
+  {
+    "id": "v-06-6",
+    "lessonId": "lesson-06",
+    "german": "von",
+    "transliterationAr": "فون",
+    "meaningAr": "من",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ]
+  },
+  {
+    "id": "v-06-7",
+    "lessonId": "lesson-06",
+    "german": "aus",
+    "transliterationAr": "آوس",
+    "meaningAr": "من / خارج",
+    "partOfSpeech": "other",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ]
+  },
+  {
+    "id": "v-06-8",
+    "lessonId": "lesson-06",
+    "german": "Freund",
+    "transliterationAr": "فرويند",
+    "meaningAr": "صديق",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ],
+    "article": "der",
+    "plural": "Freunde"
+  },
+  {
+    "id": "v-06-9",
+    "lessonId": "lesson-06",
+    "german": "Kinder",
+    "transliterationAr": "كيندر",
+    "meaningAr": "أطفال",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ]
+  },
+  {
+    "id": "v-06-10",
+    "lessonId": "lesson-06",
+    "german": "Frauen",
+    "transliterationAr": "فراوين",
+    "meaningAr": "نساء",
+    "partOfSpeech": "noun",
+    "tags": [
+      "حروف الجر",
+      "جمع"
+    ]
+  },
+  {
+    "id": "v-07-1",
+    "lessonId": "lesson-07",
+    "german": "Null",
+    "transliterationAr": "نول",
+    "meaningAr": "صفر",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ],
+    "exampleGerman": "Null, eins, zwei",
+    "exampleTransliterationAr": "نول، آينس، تسفاي",
+    "exampleMeaningAr": "صفر، واحد، اثنان"
+  },
+  {
+    "id": "v-07-2",
+    "lessonId": "lesson-07",
+    "german": "eins",
+    "transliterationAr": "آينس",
+    "meaningAr": "واحد",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ],
+    "exampleGerman": "zehn, elf, zwölf",
+    "exampleTransliterationAr": "تسين، إلف، تسفولف",
+    "exampleMeaningAr": "عشرة، أحد عشر، اثنا عشر"
+  },
+  {
+    "id": "v-07-3",
+    "lessonId": "lesson-07",
+    "german": "zwei",
+    "transliterationAr": "تسفاي",
+    "meaningAr": "اثنان",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ],
+    "exampleGerman": "hundert",
+    "exampleTransliterationAr": "هوندرت",
+    "exampleMeaningAr": "مئة"
+  },
+  {
+    "id": "v-07-4",
+    "lessonId": "lesson-07",
+    "german": "drei",
+    "transliterationAr": "دراي",
+    "meaningAr": "ثلاثة",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-07-5",
+    "lessonId": "lesson-07",
+    "german": "fünf",
+    "transliterationAr": "فونف",
+    "meaningAr": "خمسة",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-07-6",
+    "lessonId": "lesson-07",
+    "german": "zehn",
+    "transliterationAr": "تسين",
+    "meaningAr": "عشرة",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-07-7",
+    "lessonId": "lesson-07",
+    "german": "zwölf",
+    "transliterationAr": "تسفولف",
+    "meaningAr": "اثنا عشر",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-07-8",
+    "lessonId": "lesson-07",
+    "german": "zwanzig",
+    "transliterationAr": "تسفانتسيغ",
+    "meaningAr": "عشرون",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-07-9",
+    "lessonId": "lesson-07",
+    "german": "hundert",
+    "transliterationAr": "هوندرت",
+    "meaningAr": "مئة",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-07-10",
+    "lessonId": "lesson-07",
+    "german": "tausend",
+    "transliterationAr": "تاوزند",
+    "meaningAr": "ألف",
+    "partOfSpeech": "number",
+    "tags": [
+      "أعداد",
+      "نطق"
+    ]
+  },
+  {
+    "id": "v-08-1",
+    "lessonId": "lesson-08",
+    "german": "erste",
+    "transliterationAr": "إرسته",
+    "meaningAr": "الأول",
+    "partOfSpeech": "number",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "exampleGerman": "das erste",
+    "exampleTransliterationAr": "داس إرسته",
+    "exampleMeaningAr": "الأول"
+  },
+  {
+    "id": "v-08-2",
+    "lessonId": "lesson-08",
+    "german": "zweite",
+    "transliterationAr": "تسفايته",
+    "meaningAr": "الثاني",
+    "partOfSpeech": "number",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "exampleGerman": "die Hälfte",
+    "exampleTransliterationAr": "دي هيلفته",
+    "exampleMeaningAr": "النصف"
+  },
+  {
+    "id": "v-08-3",
+    "lessonId": "lesson-08",
+    "german": "dritte",
+    "transliterationAr": "دريته",
+    "meaningAr": "الثالث",
+    "partOfSpeech": "number",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "exampleGerman": "zweimal",
+    "exampleTransliterationAr": "تسفاي مال",
+    "exampleMeaningAr": "مرتان"
+  },
+  {
+    "id": "v-08-4",
+    "lessonId": "lesson-08",
+    "german": "zehnte",
+    "transliterationAr": "تسينته",
+    "meaningAr": "العاشر",
+    "partOfSpeech": "number",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ]
+  },
+  {
+    "id": "v-08-5",
+    "lessonId": "lesson-08",
+    "german": "Hälfte",
+    "transliterationAr": "هيلفته",
+    "meaningAr": "النصف",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-08-6",
+    "lessonId": "lesson-08",
+    "german": "Drittel",
+    "transliterationAr": "دريتل",
+    "meaningAr": "الثلث",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-08-7",
+    "lessonId": "lesson-08",
+    "german": "Viertel",
+    "transliterationAr": "فيرتل",
+    "meaningAr": "الربع",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-08-8",
+    "lessonId": "lesson-08",
+    "german": "einmal",
+    "transliterationAr": "آين مال",
+    "meaningAr": "مرة واحدة",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ]
+  },
+  {
+    "id": "v-08-9",
+    "lessonId": "lesson-08",
+    "german": "zweimal",
+    "transliterationAr": "تسفاي مال",
+    "meaningAr": "مرتان",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ]
+  },
+  {
+    "id": "v-08-10",
+    "lessonId": "lesson-08",
+    "german": "Dutzend",
+    "transliterationAr": "دوتسند",
+    "meaningAr": "دزينة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "ترتيبي",
+      "كسور"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-09-1",
+    "lessonId": "lesson-09",
+    "german": "Jahr",
+    "transliterationAr": "يار",
+    "meaningAr": "سنة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "das",
+    "plural": "Jahre",
+    "exampleGerman": "ein Kilogramm",
+    "exampleTransliterationAr": "آين كيلوغرام",
+    "exampleMeaningAr": "كيلوغرام واحد"
+  },
+  {
+    "id": "v-09-2",
+    "lessonId": "lesson-09",
+    "german": "Monat",
+    "transliterationAr": "مونات",
+    "meaningAr": "شهر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "der",
+    "plural": "Monate",
+    "exampleGerman": "ein Meter",
+    "exampleTransliterationAr": "آين ميتر",
+    "exampleMeaningAr": "متر واحد"
+  },
+  {
+    "id": "v-09-3",
+    "lessonId": "lesson-09",
+    "german": "Woche",
+    "transliterationAr": "فوخه",
+    "meaningAr": "أسبوع",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "die",
+    "plural": "Wochen",
+    "exampleGerman": "eine Woche",
+    "exampleTransliterationAr": "آينه فوخه",
+    "exampleMeaningAr": "أسبوع واحد"
+  },
+  {
+    "id": "v-09-4",
+    "lessonId": "lesson-09",
+    "german": "Tag",
+    "transliterationAr": "تاغ",
+    "meaningAr": "يوم",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "der",
+    "plural": "Tage"
+  },
+  {
+    "id": "v-09-5",
+    "lessonId": "lesson-09",
+    "german": "Nacht",
+    "transliterationAr": "ناخت",
+    "meaningAr": "ليل",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "die",
+    "plural": "Nächte"
+  },
+  {
+    "id": "v-09-6",
+    "lessonId": "lesson-09",
+    "german": "Kilogramm",
+    "transliterationAr": "كيلوغرام",
+    "meaningAr": "كيلوغرام",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-09-7",
+    "lessonId": "lesson-09",
+    "german": "Gramm",
+    "transliterationAr": "غرام",
+    "meaningAr": "غرام",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-09-8",
+    "lessonId": "lesson-09",
+    "german": "Kilometer",
+    "transliterationAr": "كيلوميتر",
+    "meaningAr": "كيلومتر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-09-9",
+    "lessonId": "lesson-09",
+    "german": "Meter",
+    "transliterationAr": "ميتر",
+    "meaningAr": "متر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-09-10",
+    "lessonId": "lesson-09",
+    "german": "Uhr",
+    "transliterationAr": "أور",
+    "meaningAr": "ساعة / وقت",
+    "partOfSpeech": "noun",
+    "tags": [
+      "وقت",
+      "مقاييس"
+    ],
+    "article": "die",
+    "plural": "Uhren"
+  },
+  {
+    "id": "v-10-1",
+    "lessonId": "lesson-10",
+    "german": "Empfangen",
+    "transliterationAr": "إمبفانغن",
+    "meaningAr": "استقبل",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ],
+    "exampleGerman": "Ich verstehe.",
+    "exampleTransliterationAr": "إيش فِرشتهيه",
+    "exampleMeaningAr": "أنا أفهم."
+  },
+  {
+    "id": "v-10-2",
+    "lessonId": "lesson-10",
+    "german": "Anmachen",
+    "transliterationAr": "أن ماخن",
+    "meaningAr": "أشعل",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ],
+    "exampleGerman": "Kommen Sie bitte.",
+    "exampleTransliterationAr": "كومن زي بيته",
+    "exampleMeaningAr": "تعال / تفضل من فضلك."
+  },
+  {
+    "id": "v-10-3",
+    "lessonId": "lesson-10",
+    "german": "Zumachen",
+    "transliterationAr": "تسوماخن",
+    "meaningAr": "أغلق",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ],
+    "exampleGerman": "Wir trinken Wasser.",
+    "exampleTransliterationAr": "فير ترينكن فاسر",
+    "exampleMeaningAr": "نحن نشرب الماء."
+  },
+  {
+    "id": "v-10-4",
+    "lessonId": "lesson-10",
+    "german": "Abfahren",
+    "transliterationAr": "أبفارن",
+    "meaningAr": "أقلع / غادر",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-10-5",
+    "lessonId": "lesson-10",
+    "german": "Essen",
+    "transliterationAr": "إسن",
+    "meaningAr": "يأكل",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-10-6",
+    "lessonId": "lesson-10",
+    "german": "Kommen",
+    "transliterationAr": "كومن",
+    "meaningAr": "يأتي",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-10-7",
+    "lessonId": "lesson-10",
+    "german": "Trinken",
+    "transliterationAr": "ترينكن",
+    "meaningAr": "يشرب",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-10-8",
+    "lessonId": "lesson-10",
+    "german": "Erscheinen",
+    "transliterationAr": "إرشاينن",
+    "meaningAr": "يظهر",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-10-9",
+    "lessonId": "lesson-10",
+    "german": "Kochen",
+    "transliterationAr": "كوخن",
+    "meaningAr": "يطبخ",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-10-10",
+    "lessonId": "lesson-10",
+    "german": "Verstehen",
+    "transliterationAr": "فِرشتهين",
+    "meaningAr": "يفهم",
+    "partOfSpeech": "verb",
+    "tags": [
+      "أفعال",
+      "استعمال يومي"
+    ]
+  },
+  {
+    "id": "v-11-1",
+    "lessonId": "lesson-11",
+    "german": "Addition",
+    "transliterationAr": "أديتسيون",
+    "meaningAr": "جمع",
+    "partOfSpeech": "noun",
+    "tags": [
+      "صف",
+      "حساب"
+    ],
+    "article": "die",
+    "exampleGerman": "Ich addiere.",
+    "exampleTransliterationAr": "إيش أدييره",
+    "exampleMeaningAr": "أنا أجمع."
+  },
+  {
+    "id": "v-11-2",
+    "lessonId": "lesson-11",
+    "german": "Subtraktion",
+    "transliterationAr": "سوبتراكتيون",
+    "meaningAr": "طرح",
+    "partOfSpeech": "noun",
+    "tags": [
+      "صف",
+      "حساب"
+    ],
+    "article": "die",
+    "exampleGerman": "Multiplizieren Sie.",
+    "exampleTransliterationAr": "مولتيبليتسيرن زي",
+    "exampleMeaningAr": "اضربوا / اضرب."
+  },
+  {
+    "id": "v-11-3",
+    "lessonId": "lesson-11",
+    "german": "Multiplikation",
+    "transliterationAr": "مولتيبليكاتسيون",
+    "meaningAr": "ضرب",
+    "partOfSpeech": "noun",
+    "tags": [
+      "صف",
+      "حساب"
+    ],
+    "article": "die",
+    "exampleGerman": "Die Zeit",
+    "exampleTransliterationAr": "دي تسايت",
+    "exampleMeaningAr": "الوقت"
+  },
+  {
+    "id": "v-11-4",
+    "lessonId": "lesson-11",
+    "german": "Division",
+    "transliterationAr": "ديفيزيون",
+    "meaningAr": "قسمة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "صف",
+      "حساب"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-11-5",
+    "lessonId": "lesson-11",
+    "german": "Addieren Sie",
+    "transliterationAr": "أديرن زي",
+    "meaningAr": "اجمع",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "صف",
+      "حساب"
+    ]
+  },
+  {
+    "id": "v-11-6",
+    "lessonId": "lesson-11",
+    "german": "Reduzieren Sie",
+    "transliterationAr": "ريدوتسيرن زي",
+    "meaningAr": "اطرح / قلل",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "صف",
+      "حساب"
+    ]
+  },
+  {
+    "id": "v-11-7",
+    "lessonId": "lesson-11",
+    "german": "Multiplizieren Sie",
+    "transliterationAr": "مولتيبليتسيرن زي",
+    "meaningAr": "اضرب",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "صف",
+      "حساب"
+    ]
+  },
+  {
+    "id": "v-11-8",
+    "lessonId": "lesson-11",
+    "german": "Ich addiere",
+    "transliterationAr": "إيش أديريه",
+    "meaningAr": "أنا أجمع",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "صف",
+      "حساب"
+    ]
+  },
+  {
+    "id": "v-11-9",
+    "lessonId": "lesson-11",
+    "german": "Ich dividiere",
+    "transliterationAr": "إيش ديفيدييره",
+    "meaningAr": "أنا أقسم",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "صف",
+      "حساب"
+    ]
+  },
+  {
+    "id": "v-11-10",
+    "lessonId": "lesson-11",
+    "german": "Gewicht",
+    "transliterationAr": "غفشت",
+    "meaningAr": "وزن",
+    "partOfSpeech": "noun",
+    "tags": [
+      "صف",
+      "حساب"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-11-11",
+    "lessonId": "lesson-11",
+    "german": "Zeit",
+    "transliterationAr": "تسايت",
+    "meaningAr": "وقت",
+    "partOfSpeech": "noun",
+    "tags": [
+      "صف",
+      "حساب"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-12-1",
+    "lessonId": "lesson-12",
+    "german": "Entschuldigung",
+    "transliterationAr": "إنتشولديغونغ",
+    "meaningAr": "عذراً / اعتذار",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "exampleGerman": "Entschuldigung, ich habe mich verspätet.",
+    "exampleTransliterationAr": "إنتشولديغونغ، إيش هابه ميش فرشبييتت",
+    "exampleMeaningAr": "عذراً، لقد تأخرت."
+  },
+  {
+    "id": "v-12-2",
+    "lessonId": "lesson-12",
+    "german": "Fahrkarte",
+    "transliterationAr": "فاركارته",
+    "meaningAr": "تذكرة سفر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "article": "die",
+    "plural": "Fahrkarten",
+    "exampleGerman": "Ich möchte eine Fahrkarte.",
+    "exampleTransliterationAr": "إيش موشته آينه فاركارتة",
+    "exampleMeaningAr": "أريد تذكرة سفر."
+  },
+  {
+    "id": "v-12-3",
+    "lessonId": "lesson-12",
+    "german": "Einzelzimmer",
+    "transliterationAr": "أينتسل تسيمر",
+    "meaningAr": "غرفة مفردة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "article": "das",
+    "exampleGerman": "Haben Sie ein Einzelzimmer?",
+    "exampleTransliterationAr": "هابن زي آين أينتسل تسيمر؟",
+    "exampleMeaningAr": "هل لديكم غرفة مفردة؟"
+  },
+  {
+    "id": "v-12-4",
+    "lessonId": "lesson-12",
+    "german": "Reservieren",
+    "transliterationAr": "ريزرفيرن",
+    "meaningAr": "يحجز",
+    "partOfSpeech": "verb",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ]
+  },
+  {
+    "id": "v-12-5",
+    "lessonId": "lesson-12",
+    "german": "Schlüssel",
+    "transliterationAr": "شلوسل",
+    "meaningAr": "مفتاح",
+    "partOfSpeech": "noun",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "article": "der",
+    "plural": "Schlüssel"
+  },
+  {
+    "id": "v-12-6",
+    "lessonId": "lesson-12",
+    "german": "Frühstück",
+    "transliterationAr": "فروشتوك",
+    "meaningAr": "فطور",
+    "partOfSpeech": "noun",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-12-7",
+    "lessonId": "lesson-12",
+    "german": "ausgehen",
+    "transliterationAr": "آوسغيهن",
+    "meaningAr": "يخرج",
+    "partOfSpeech": "verb",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ]
+  },
+  {
+    "id": "v-12-8",
+    "lessonId": "lesson-12",
+    "german": "morgen",
+    "transliterationAr": "مورغن",
+    "meaningAr": "غداً",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ]
+  },
+  {
+    "id": "v-12-9",
+    "lessonId": "lesson-12",
+    "german": "Geschäft",
+    "transliterationAr": "غشيفت",
+    "meaningAr": "محل / متجر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "article": "das",
+    "plural": "Geschäfte"
+  },
+  {
+    "id": "v-12-10",
+    "lessonId": "lesson-12",
+    "german": "Kleidung",
+    "transliterationAr": "كلايدونغ",
+    "meaningAr": "ملابس",
+    "partOfSpeech": "noun",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-12-11",
+    "lessonId": "lesson-12",
+    "german": "bitte",
+    "transliterationAr": "بيته",
+    "meaningAr": "من فضلك",
+    "partOfSpeech": "phrase",
+    "tags": [
+      "محادثات",
+      "سفر"
+    ]
+  }
+]

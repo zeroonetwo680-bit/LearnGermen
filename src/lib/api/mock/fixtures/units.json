@@ -1,0 +1,54 @@
+[
+  {
+    "id": "unit-pronunciation",
+    "slug": "pronunciation-foundations",
+    "order": 1,
+    "title": "الحروف والنطق",
+    "description": "ابدأ بحروف الهجاء، الأصوات المركبة، وقواعد النطق الأساسية في الألمانية.",
+    "icon": "Languages",
+    "color": "blue",
+    "lessonCount": 3,
+    "questionCount": 15,
+    "vocabularyCount": 32,
+    "exerciseCount": 9
+  },
+  {
+    "id": "unit-grammar",
+    "slug": "grammar-basics",
+    "order": 2,
+    "title": "أساسيات القواعد",
+    "description": "تعلّم أدوات التعريف، الضمائر، ترتيب الجملة، وحروف الجر والجمع.",
+    "icon": "BookOpenCheck",
+    "color": "green",
+    "lessonCount": 3,
+    "questionCount": 15,
+    "vocabularyCount": 28,
+    "exerciseCount": 9
+  },
+  {
+    "id": "unit-numbers",
+    "slug": "numbers-time-and-measurements",
+    "order": 3,
+    "title": "الأعداد والوقت والمقاييس",
+    "description": "افهم الأعداد الأصلية والترتيبية والوقت والأوزان والمقاييس المستخدمة يومياً.",
+    "icon": "Calculator",
+    "color": "amber",
+    "lessonCount": 3,
+    "questionCount": 15,
+    "vocabularyCount": 30,
+    "exerciseCount": 9
+  },
+  {
+    "id": "unit-everyday",
+    "slug": "everyday-usage",
+    "order": 4,
+    "title": "المفردات والاستعمال اليومي",
+    "description": "مفردات عملية وتعبيرات جاهزة للحياة اليومية والسفر والتعاملات الأساسية.",
+    "icon": "MessagesSquare",
+    "color": "violet",
+    "lessonCount": 3,
+    "questionCount": 15,
+    "vocabularyCount": 32,
+    "exerciseCount": 9
+  }
+]

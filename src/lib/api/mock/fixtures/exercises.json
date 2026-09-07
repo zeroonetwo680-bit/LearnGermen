@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "e-01-1",
+    "lessonId": "lesson-01",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Apfel",
+        "right": "تفاحة",
+        "answer": "تفاحة"
+      },
+      {
+        "id": "2",
+        "left": "Baum",
+        "right": "شجرة",
+        "answer": "شجرة"
+      },
+      {
+        "id": "3",
+        "left": "Café",
+        "right": "مقهى",
+        "answer": "مقهى"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-01-2",
+    "lessonId": "lesson-01",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "تفاحة = ____",
+        "answer": "Apfel"
+      },
+      {
+        "id": "2",
+        "prompt": "شجرة = ____",
+        "answer": "Baum"
+      },
+      {
+        "id": "3",
+        "prompt": "مقهى = ____",
+        "answer": "Café"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-01-3",
+    "lessonId": "lesson-01",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Baum",
+        "answer": "شجرة"
+      },
+      {
+        "id": "2",
+        "text": "Fisch",
+        "answer": "سمكة"
+      },
+      {
+        "id": "3",
+        "text": "Haus",
+        "answer": "بيت"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-02-1",
+    "lessonId": "lesson-02",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Europa",
+        "right": "أوروبا",
+        "answer": "أوروبا"
+      },
+      {
+        "id": "2",
+        "left": "Deutsch",
+        "right": "ألماني",
+        "answer": "ألماني"
+      },
+      {
+        "id": "3",
+        "left": "Frankreich",
+        "right": "فرنسا",
+        "answer": "فرنسا"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-02-2",
+    "lessonId": "lesson-02",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "أوروبا = ____",
+        "answer": "Europa"
+      },
+      {
+        "id": "2",
+        "prompt": "ألماني = ____",
+        "answer": "Deutsch"
+      },
+      {
+        "id": "3",
+        "prompt": "فرنسا = ____",
+        "answer": "Frankreich"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-02-3",
+    "lessonId": "lesson-02",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Straße",
+        "answer": "شارع"
+      },
+      {
+        "id": "2",
+        "text": "Frau",
+        "answer": "سيدة"
+      },
+      {
+        "id": "3",
+        "text": "Übung",
+        "answer": "تمرين"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-03-1",
+    "lessonId": "lesson-03",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "schließen",
+        "right": "يغلق",
+        "answer": "يغلق"
+      },
+      {
+        "id": "2",
+        "left": "Klasse",
+        "right": "صف",
+        "answer": "صف"
+      },
+      {
+        "id": "3",
+        "left": "Nacht",
+        "right": "ليل",
+        "answer": "ليل"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-03-2",
+    "lessonId": "lesson-03",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "يغلق = ____",
+        "answer": "schließen"
+      },
+      {
+        "id": "2",
+        "prompt": "صف = ____",
+        "answer": "Klasse"
+      },
+      {
+        "id": "3",
+        "prompt": "ليل = ____",
+        "answer": "Nacht"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-03-3",
+    "lessonId": "lesson-03",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "schließen",
+        "answer": "يغلق"
+      },
+      {
+        "id": "2",
+        "text": "Klasse",
+        "answer": "صف"
+      },
+      {
+        "id": "3",
+        "text": "Reich",
+        "answer": "دولة / مملكة"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-04-1",
+    "lessonId": "lesson-04",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "der Mann",
+        "right": "الرجل",
+        "answer": "الرجل"
+      },
+      {
+        "id": "2",
+        "left": "die Frau",
+        "right": "المرأة",
+        "answer": "المرأة"
+      },
+      {
+        "id": "3",
+        "left": "das Kind",
+        "right": "الطفل",
+        "answer": "الطفل"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-04-2",
+    "lessonId": "lesson-04",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "الرجل = ____",
+        "answer": "der Mann"
+      },
+      {
+        "id": "2",
+        "prompt": "المرأة = ____",
+        "answer": "die Frau"
+      },
+      {
+        "id": "3",
+        "prompt": "الطفل = ____",
+        "answer": "das Kind"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-04-3",
+    "lessonId": "lesson-04",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "der Mann",
+        "answer": "الرجل"
+      },
+      {
+        "id": "2",
+        "text": "die Frau",
+        "answer": "المرأة"
+      },
+      {
+        "id": "3",
+        "text": "das Kind",
+        "answer": "الطفل"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-05-1",
+    "lessonId": "lesson-05",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "er",
+        "right": "هو",
+        "answer": "هو"
+      },
+      {
+        "id": "2",
+        "left": "sie",
+        "right": "هي / هم",
+        "answer": "هي / هم"
+      },
+      {
+        "id": "3",
+        "left": "es",
+        "right": "هو لغير العاقل / المحايد",
+        "answer": "هو لغير العاقل / المحايد"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-05-2",
+    "lessonId": "lesson-05",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "هو = ____",
+        "answer": "er"
+      },
+      {
+        "id": "2",
+        "prompt": "هي / هم = ____",
+        "answer": "sie"
+      },
+      {
+        "id": "3",
+        "prompt": "هو لغير العاقل / المحايد = ____",
+        "answer": "es"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-05-3",
+    "lessonId": "lesson-05",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Er ist hier.",
+        "answer": "هو هنا."
+      },
+      {
+        "id": "2",
+        "text": "Sie kommt heute.",
+        "answer": "هي تأتي اليوم."
+      },
+      {
+        "id": "3",
+        "text": "Ich bin hier.",
+        "answer": "أنا هنا."
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-06-1",
+    "lessonId": "lesson-06",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "in",
+        "right": "في / داخل",
+        "answer": "في / داخل"
+      },
+      {
+        "id": "2",
+        "left": "nach",
+        "right": "إلى / نحو",
+        "answer": "إلى / نحو"
+      },
+      {
+        "id": "3",
+        "left": "zu",
+        "right": "إلى",
+        "answer": "إلى"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-06-2",
+    "lessonId": "lesson-06",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "في / داخل = ____",
+        "answer": "in"
+      },
+      {
+        "id": "2",
+        "prompt": "إلى / نحو = ____",
+        "answer": "nach"
+      },
+      {
+        "id": "3",
+        "prompt": "إلى = ____",
+        "answer": "zu"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-06-3",
+    "lessonId": "lesson-06",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "in der Stadt",
+        "answer": "في المدينة"
+      },
+      {
+        "id": "2",
+        "text": "zu Hause",
+        "answer": "إلى البيت / في البيت بحسب السياق"
+      },
+      {
+        "id": "3",
+        "text": "die Kinder",
+        "answer": "الأطفال"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-07-1",
+    "lessonId": "lesson-07",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Null",
+        "right": "صفر",
+        "answer": "صفر"
+      },
+      {
+        "id": "2",
+        "left": "eins",
+        "right": "واحد",
+        "answer": "واحد"
+      },
+      {
+        "id": "3",
+        "left": "zwei",
+        "right": "اثنان",
+        "answer": "اثنان"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-07-2",
+    "lessonId": "lesson-07",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "صفر = ____",
+        "answer": "Null"
+      },
+      {
+        "id": "2",
+        "prompt": "واحد = ____",
+        "answer": "eins"
+      },
+      {
+        "id": "3",
+        "prompt": "اثنان = ____",
+        "answer": "zwei"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-07-3",
+    "lessonId": "lesson-07",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Null, eins, zwei",
+        "answer": "صفر، واحد، اثنان"
+      },
+      {
+        "id": "2",
+        "text": "zehn, elf, zwölf",
+        "answer": "عشرة، أحد عشر، اثنا عشر"
+      },
+      {
+        "id": "3",
+        "text": "hundert",
+        "answer": "مئة"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-08-1",
+    "lessonId": "lesson-08",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "erste",
+        "right": "الأول",
+        "answer": "الأول"
+      },
+      {
+        "id": "2",
+        "left": "zweite",
+        "right": "الثاني",
+        "answer": "الثاني"
+      },
+      {
+        "id": "3",
+        "left": "dritte",
+        "right": "الثالث",
+        "answer": "الثالث"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-08-2",
+    "lessonId": "lesson-08",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "الأول = ____",
+        "answer": "erste"
+      },
+      {
+        "id": "2",
+        "prompt": "الثاني = ____",
+        "answer": "zweite"
+      },
+      {
+        "id": "3",
+        "prompt": "الثالث = ____",
+        "answer": "dritte"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-08-3",
+    "lessonId": "lesson-08",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "das erste",
+        "answer": "الأول"
+      },
+      {
+        "id": "2",
+        "text": "die Hälfte",
+        "answer": "النصف"
+      },
+      {
+        "id": "3",
+        "text": "zweimal",
+        "answer": "مرتان"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-09-1",
+    "lessonId": "lesson-09",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Jahr",
+        "right": "سنة",
+        "answer": "سنة"
+      },
+      {
+        "id": "2",
+        "left": "Monat",
+        "right": "شهر",
+        "answer": "شهر"
+      },
+      {
+        "id": "3",
+        "left": "Woche",
+        "right": "أسبوع",
+        "answer": "أسبوع"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-09-2",
+    "lessonId": "lesson-09",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "سنة = ____",
+        "answer": "Jahr"
+      },
+      {
+        "id": "2",
+        "prompt": "شهر = ____",
+        "answer": "Monat"
+      },
+      {
+        "id": "3",
+        "prompt": "أسبوع = ____",
+        "answer": "Woche"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-09-3",
+    "lessonId": "lesson-09",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "ein Kilogramm",
+        "answer": "كيلوغرام واحد"
+      },
+      {
+        "id": "2",
+        "text": "ein Meter",
+        "answer": "متر واحد"
+      },
+      {
+        "id": "3",
+        "text": "eine Woche",
+        "answer": "أسبوع واحد"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-10-1",
+    "lessonId": "lesson-10",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Empfangen",
+        "right": "استقبل",
+        "answer": "استقبل"
+      },
+      {
+        "id": "2",
+        "left": "Anmachen",
+        "right": "أشعل",
+        "answer": "أشعل"
+      },
+      {
+        "id": "3",
+        "left": "Zumachen",
+        "right": "أغلق",
+        "answer": "أغلق"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-10-2",
+    "lessonId": "lesson-10",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "استقبل = ____",
+        "answer": "Empfangen"
+      },
+      {
+        "id": "2",
+        "prompt": "أشعل = ____",
+        "answer": "Anmachen"
+      },
+      {
+        "id": "3",
+        "prompt": "أغلق = ____",
+        "answer": "Zumachen"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-10-3",
+    "lessonId": "lesson-10",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Ich verstehe.",
+        "answer": "أنا أفهم."
+      },
+      {
+        "id": "2",
+        "text": "Kommen Sie bitte.",
+        "answer": "تعال / تفضل من فضلك."
+      },
+      {
+        "id": "3",
+        "text": "Wir trinken Wasser.",
+        "answer": "نحن نشرب الماء."
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-11-1",
+    "lessonId": "lesson-11",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Addition",
+        "right": "جمع",
+        "answer": "جمع"
+      },
+      {
+        "id": "2",
+        "left": "Subtraktion",
+        "right": "طرح",
+        "answer": "طرح"
+      },
+      {
+        "id": "3",
+        "left": "Multiplikation",
+        "right": "ضرب",
+        "answer": "ضرب"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-11-2",
+    "lessonId": "lesson-11",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "جمع = ____",
+        "answer": "Addition"
+      },
+      {
+        "id": "2",
+        "prompt": "طرح = ____",
+        "answer": "Subtraktion"
+      },
+      {
+        "id": "3",
+        "prompt": "ضرب = ____",
+        "answer": "Multiplikation"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-11-3",
+    "lessonId": "lesson-11",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Ich addiere.",
+        "answer": "أنا أجمع."
+      },
+      {
+        "id": "2",
+        "text": "Multiplizieren Sie.",
+        "answer": "اضربوا / اضرب."
+      },
+      {
+        "id": "3",
+        "text": "Die Zeit",
+        "answer": "الوقت"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-12-1",
+    "lessonId": "lesson-12",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Entschuldigung",
+        "right": "عذراً / اعتذار",
+        "answer": "عذراً / اعتذار"
+      },
+      {
+        "id": "2",
+        "left": "Fahrkarte",
+        "right": "تذكرة سفر",
+        "answer": "تذكرة سفر"
+      },
+      {
+        "id": "3",
+        "left": "Einzelzimmer",
+        "right": "غرفة مفردة",
+        "answer": "غرفة مفردة"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+  },
+  {
+    "id": "e-12-2",
+    "lessonId": "lesson-12",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "عذراً / اعتذار = ____",
+        "answer": "Entschuldigung"
+      },
+      {
+        "id": "2",
+        "prompt": "تذكرة سفر = ____",
+        "answer": "Fahrkarte"
+      },
+      {
+        "id": "3",
+        "prompt": "غرفة مفردة = ____",
+        "answer": "Einzelzimmer"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-12-3",
+    "lessonId": "lesson-12",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Entschuldigung, ich habe mich verspätet.",
+        "answer": "عذراً، لقد تأخرت."
+      },
+      {
+        "id": "2",
+        "text": "Ich möchte eine Fahrkarte.",
+        "answer": "أريد تذكرة سفر."
+      },
+      {
+        "id": "3",
+        "text": "Haben Sie ein Einzelzimmer?",
+        "answer": "هل لديكم غرفة مفردة؟"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  }
+]

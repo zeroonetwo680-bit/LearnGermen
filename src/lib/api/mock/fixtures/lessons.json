@@ -1,0 +1,996 @@
+[
+  {
+    "id": "lesson-01",
+    "slug": "alphabet-and-letter-sounds",
+    "number": 1,
+    "title": "حروف الهجاء والأصوات الأساسية",
+    "description": "تعرّف على الحروف الألمانية من A إلى Z وطريقة نطقها بالعربية مع أمثلة مباشرة من الكتاب.",
+    "unitId": "unit-pronunciation",
+    "unitTitle": "الحروف والنطق",
+    "unitSlug": "pronunciation-foundations",
+    "level": "A1",
+    "duration": 40,
+    "status": "published",
+    "tags": [
+      "حروف",
+      "نطق",
+      "ألمانية"
+    ],
+    "skillFocus": [
+      "alphabet",
+      "pronunciation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 12,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيعرض الكتاب الحروف الألمانية مع تقريب صوتي بالعربية، وهو أفضل مدخل للمتعلم المبتدئ قبل الانتقال إلى الكلمات والجمل.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "فكرة الدرس",
+          "body": "الحروف الألمانية ليست غريبة كلها على المتعلم العربي؛ فبعضها قريب من العربية مثل **B** و **D** و **K**، وبعضها يحتاج انتباهاً أكبر مثل **J** و **V** و **Z**. المفتاح هو ربط كل حرف بمثال واضح من المفردات.",
+          "kind": "overview"
+        },
+        {
+          "title": "كيف تتدرب",
+          "body": "اقرأ الحرف، ثم اقرأ المثال الألماني، ثم راجع طريقة النطق العربية التقريبية. كرّر بصوت مسموع أكثر من مرة حتى يثبت الربط بين شكل الحرف وصوته.",
+          "kind": "pronunciation"
+        }
+      ],
+      "pronunciationRules": [
+        {
+          "id": "pr-01-1",
+          "pattern": "A a",
+          "soundAr": "آ / أ",
+          "explanation": "قد يأتي طويلاً أو قصيراً بحسب موضعه في الكلمة.",
+          "examples": [
+            {
+              "german": "Apfel",
+              "transliterationAr": "أبفل",
+              "meaningAr": "تفاحة"
+            }
+          ]
+        },
+        {
+          "id": "pr-01-2",
+          "pattern": "J j",
+          "soundAr": "ي",
+          "explanation": "ينطق قريباً من الياء العربية.",
+          "examples": [
+            {
+              "german": "Jahr",
+              "transliterationAr": "يار",
+              "meaningAr": "سنة"
+            }
+          ]
+        },
+        {
+          "id": "pr-01-3",
+          "pattern": "Z z",
+          "soundAr": "تس",
+          "explanation": "يبدأ غالباً بصوت قريب من تس.",
+          "examples": [
+            {
+              "german": "Zug",
+              "transliterationAr": "تسوج",
+              "meaningAr": "قطار"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex-01-1",
+          "german": "Baum",
+          "transliterationAr": "باوم",
+          "meaningAr": "شجرة"
+        },
+        {
+          "id": "ex-01-2",
+          "german": "Fisch",
+          "transliterationAr": "فيش",
+          "meaningAr": "سمكة"
+        },
+        {
+          "id": "ex-01-3",
+          "german": "Haus",
+          "transliterationAr": "هاوس",
+          "meaningAr": "بيت"
+        }
+      ],
+      "summary": "## الخلاصة\nاحفظ كل حرف مع مثال واحد على الأقل. هذا سيسهّل عليك قراءة أي مفردة جديدة لاحقاً.",
+      "sourcePages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "lesson-02",
+    "slug": "compound-sounds-and-umlauts",
+    "number": 2,
+    "title": "الأصوات المركبة والأوملاوت",
+    "description": "افهم أصوات مثل eu و ei و ie و sch و au، وتغيّر نطق الحروف مع الأوملاوت.",
+    "unitId": "unit-pronunciation",
+    "unitTitle": "الحروف والنطق",
+    "unitSlug": "pronunciation-foundations",
+    "level": "A1",
+    "duration": 35,
+    "status": "published",
+    "tags": [
+      "أصوات مركبة",
+      "أوملاوت",
+      "نطق"
+    ],
+    "skillFocus": [
+      "pronunciation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 12,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nبعد الحروف الأساسية، يشرح الكتاب مجموعات الحروف التي تعطي صوتاً خاصاً في الألمانية مثل **eu** و **ei** و **ie**، بالإضافة إلى تأثير النقطتين فوق الحروف الصوتية.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "الأصوات المركبة",
+          "body": "عندما تأتي حروف معيّنة معاً، يتغيّر نطقها تماماً. مثلاً **eu** تنطق غالباً قريباً من \"أوي\"، و **ei** تنطق قريباً من \"آي\".",
+          "kind": "pronunciation"
+        },
+        {
+          "title": "الأوملاوت",
+          "body": "يشير الكتاب إلى أن **ä / ö / ü** تغيّر قيمة الصوت، ويمكن أحياناً كتابة هذه الأصوات بدائل مثل **ae / oe / ue**.",
+          "kind": "overview"
+        }
+      ],
+      "pronunciationRules": [
+        {
+          "id": "pr-02-1",
+          "pattern": "eu",
+          "soundAr": "أوي",
+          "explanation": "يظهر في كلمات شائعة مرتبطة باللغة والبلدان.",
+          "examples": [
+            {
+              "german": "Deutsch",
+              "transliterationAr": "دويتش",
+              "meaningAr": "ألماني"
+            },
+            {
+              "german": "Europa",
+              "transliterationAr": "أوروبا",
+              "meaningAr": "أوروبا"
+            }
+          ]
+        },
+        {
+          "id": "pr-02-2",
+          "pattern": "ei",
+          "soundAr": "آي",
+          "explanation": "صوت قريب من \"آي\" الإنجليزية.",
+          "examples": [
+            {
+              "german": "Frankreich",
+              "transliterationAr": "فرانكرايش",
+              "meaningAr": "فرنسا"
+            }
+          ]
+        },
+        {
+          "id": "pr-02-3",
+          "pattern": "sch",
+          "soundAr": "ش",
+          "explanation": "من أكثر التركيبات شيوعاً في بدايات الكلمات.",
+          "examples": [
+            {
+              "german": "Schule",
+              "transliterationAr": "شوله",
+              "meaningAr": "مدرسة"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex-02-1",
+          "german": "Straße",
+          "transliterationAr": "شتراسه",
+          "meaningAr": "شارع"
+        },
+        {
+          "id": "ex-02-2",
+          "german": "Frau",
+          "transliterationAr": "فراو",
+          "meaningAr": "سيدة"
+        },
+        {
+          "id": "ex-02-3",
+          "german": "Übung",
+          "transliterationAr": "إيبونغ",
+          "meaningAr": "تمرين"
+        }
+      ],
+      "summary": "## الخلاصة\nالمتعلم الجيد لا يحفظ الحرف وحده، بل يحفظ أيضاً تراكيب الحروف الأكثر شيوعاً في الألمانية.",
+      "sourcePages": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "id": "lesson-03",
+    "slug": "special-pronunciation-rules",
+    "number": 3,
+    "title": "قواعد النطق الخاصة",
+    "description": "تعلّم نطق ch و ß و sp و st و tion مع أمثلة واضحة من الكتاب.",
+    "unitId": "unit-pronunciation",
+    "unitTitle": "الحروف والنطق",
+    "unitSlug": "pronunciation-foundations",
+    "level": "A1",
+    "duration": 35,
+    "status": "published",
+    "tags": [
+      "ch",
+      "ß",
+      "tion",
+      "نطق"
+    ],
+    "skillFocus": [
+      "pronunciation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 8,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيقدّم الكتاب عدداً من القواعد الخاصة التي يكثر ظهورها في الألمانية، ويحتاجها المتعلم كي لا يقرأ الكلمات قراءة حرفية.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "صوت ch",
+          "body": "يوضح الكتاب أن **ch** قد يقترب من الخاء العربية بعد بعض الحروف الصوتية، وقد يأتي أخف بعد **e** و **i**.",
+          "kind": "pronunciation"
+        },
+        {
+          "title": "الحرف ß والنهاية tion",
+          "body": "الحرف **ß** يعامل في النطق قريباً من **ss**، بينما النهاية **tion** تسمع غالباً قريباً من \"تسيون\".",
+          "kind": "overview"
+        }
+      ],
+      "pronunciationRules": [
+        {
+          "id": "pr-03-1",
+          "pattern": "ch بعد a/o/u",
+          "soundAr": "خ",
+          "explanation": "في كلمات مثل Nacht و Buch.",
+          "examples": [
+            {
+              "german": "Nacht",
+              "transliterationAr": "ناخت",
+              "meaningAr": "ليل"
+            },
+            {
+              "german": "Buch",
+              "transliterationAr": "بوخ",
+              "meaningAr": "كتاب"
+            }
+          ]
+        },
+        {
+          "id": "pr-03-2",
+          "pattern": "ch بعد e/i",
+          "soundAr": "بين ش وخ",
+          "explanation": "صوت أخف من الخاء وأقرب إلى الاحتكاك.",
+          "examples": [
+            {
+              "german": "Ich",
+              "transliterationAr": "إيش",
+              "meaningAr": "أنا"
+            }
+          ]
+        },
+        {
+          "id": "pr-03-3",
+          "pattern": "tion",
+          "soundAr": "تسيون",
+          "explanation": "يأتي غالباً في نهاية الكلمات الأجنبية الأصل.",
+          "examples": [
+            {
+              "german": "Nation",
+              "transliterationAr": "ناتسيون",
+              "meaningAr": "أمة"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex-03-1",
+          "german": "schließen",
+          "transliterationAr": "شليسن",
+          "meaningAr": "يغلق"
+        },
+        {
+          "id": "ex-03-2",
+          "german": "Klasse",
+          "transliterationAr": "كلاسه",
+          "meaningAr": "صف"
+        },
+        {
+          "id": "ex-03-3",
+          "german": "Reich",
+          "transliterationAr": "رايش",
+          "meaningAr": "دولة / مملكة"
+        }
+      ],
+      "summary": "## الخلاصة\nإذا أتقنت القواعد الخاصة، ستتحسن قراءتك للكلمات الطويلة بسرعة.",
+      "sourcePages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "lesson-04",
+    "slug": "articles-and-genders",
+    "number": 4,
+    "title": "أدوات التعريف والتنكير والجنس",
+    "description": "تعرّف على der و die و das و ein و kein مع أمثلة على المذكر والمؤنث والمحايد.",
+    "unitId": "unit-grammar",
+    "unitTitle": "أساسيات القواعد",
+    "unitSlug": "grammar-basics",
+    "level": "A1",
+    "duration": 45,
+    "status": "published",
+    "tags": [
+      "قواعد",
+      "أدوات التعريف",
+      "الجنس"
+    ],
+    "skillFocus": [
+      "grammar"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 9,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيشدّد الكتاب على أهمية أدوات التعريف في الألمانية لأنها أساس التعامل مع الاسم داخل الجملة.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "أدوات التعريف",
+          "body": "الأسماء في الألمانية تأتي مع أداة تعريف مرتبطة بجنس الاسم: **der** للمذكر، **die** للمؤنث، **das** للمحايد.",
+          "kind": "grammar"
+        },
+        {
+          "title": "أدوات التنكير والنفي",
+          "body": "للتنكير نجد **ein**، أما النفي فيظهر في الكتاب عبر **kein / keine** بحسب نوع الاسم.",
+          "kind": "grammar"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-04-1",
+          "german": "der Mann",
+          "transliterationAr": "دير مان",
+          "meaningAr": "الرجل"
+        },
+        {
+          "id": "ex-04-2",
+          "german": "die Frau",
+          "transliterationAr": "دي فراو",
+          "meaningAr": "المرأة"
+        },
+        {
+          "id": "ex-04-3",
+          "german": "das Kind",
+          "transliterationAr": "داس كيند",
+          "meaningAr": "الطفل"
+        }
+      ],
+      "summary": "## الخلاصة\nاحفظ الاسم مع أداته دائماً، ولا تحفظ المفردة وحدها.",
+      "sourcePages": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "lesson-05",
+    "slug": "pronouns-and-basic-sentence-order",
+    "number": 5,
+    "title": "الضمائر وترتيب الجملة الأساسي",
+    "description": "تعلّم الضمائر الأساسية وملاحظة الكتاب حول موقع الفعل في المرتبة الثانية داخل الجملة الألمانية.",
+    "unitId": "unit-grammar",
+    "unitTitle": "أساسيات القواعد",
+    "unitSlug": "grammar-basics",
+    "level": "A1",
+    "duration": 40,
+    "status": "published",
+    "tags": [
+      "ضمائر",
+      "ترتيب الجملة",
+      "قواعد"
+    ],
+    "skillFocus": [
+      "grammar",
+      "conversation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 9,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nينتقل الكتاب من الأسماء وأدواتها إلى الضمائر، ثم يقدّم ملاحظة مهمة جداً: الفعل في الألمانية يأتي غالباً في المرتبة الثانية.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "الضمائر الأساسية",
+          "body": "يحوَّل الاسم المذكر عادة إلى **er**، والمؤنث إلى **sie**، والمحايد إلى **es**. كما يحتاج المتعلم إلى **ich** و **du** و **wir** للتعبير اليومي.",
+          "kind": "grammar"
+        },
+        {
+          "title": "ترتيب الجملة",
+          "body": "المبدأ الأهم للمبتدئ: الفعل المصرف يحتل المركز الثاني في الجملة البسيطة. هذا يساعد على بناء جمل صحيحة منذ البداية.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-05-1",
+          "german": "Er ist hier.",
+          "transliterationAr": "إير إيست هير",
+          "meaningAr": "هو هنا."
+        },
+        {
+          "id": "ex-05-2",
+          "german": "Sie kommt heute.",
+          "transliterationAr": "زي كومت هويته",
+          "meaningAr": "هي تأتي اليوم."
+        },
+        {
+          "id": "ex-05-3",
+          "german": "Ich bin hier.",
+          "transliterationAr": "إيش بين هير",
+          "meaningAr": "أنا هنا."
+        }
+      ],
+      "summary": "## الخلاصة\nابدأ بجمل قصيرة، وراجع دائماً موضع الفعل والضمير قبل حفظ الجملة.",
+      "sourcePages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": "lesson-06",
+    "slug": "prepositions-and-plurals",
+    "number": 6,
+    "title": "حروف الجر والمفرد والجمع",
+    "description": "راجع حروف الجر الشائعة للمكان وتعرّف على أمثلة جمع الأسماء كما يوردها الكتاب.",
+    "unitId": "unit-grammar",
+    "unitTitle": "أساسيات القواعد",
+    "unitSlug": "grammar-basics",
+    "level": "A2",
+    "duration": 40,
+    "status": "published",
+    "tags": [
+      "حروف الجر",
+      "جمع",
+      "قواعد"
+    ],
+    "skillFocus": [
+      "grammar"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيقدّم الكتاب عدداً من حروف الجر المهمة للحركة والمكان، ثم يوضح أن جمع الأسماء في الألمانية لا يعتمد قاعدة واحدة ثابتة.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "حروف الجر الأساسية",
+          "body": "من الحروف المبكرة في الكتاب: **in, nach, zu, bis, über, von, aus**، وكل منها يستخدم في سياق مختلف.",
+          "kind": "grammar"
+        },
+        {
+          "title": "الجمع",
+          "body": "ليس لكل الأسماء نمط جمع واحد، لذلك يجب حفظ المفرد مع الجمع: **Freund → Freunde**، **Kind → Kinder**، **Frau → Frauen**.",
+          "kind": "overview"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-06-1",
+          "german": "in der Stadt",
+          "transliterationAr": "إن دير شتات",
+          "meaningAr": "في المدينة"
+        },
+        {
+          "id": "ex-06-2",
+          "german": "zu Hause",
+          "transliterationAr": "تسو هاوزه",
+          "meaningAr": "إلى البيت / في البيت بحسب السياق"
+        },
+        {
+          "id": "ex-06-3",
+          "german": "die Kinder",
+          "transliterationAr": "دي كيندر",
+          "meaningAr": "الأطفال"
+        }
+      ],
+      "summary": "## الخلاصة\nاحفظ حرف الجر مع مثال، والاسم مع صيغة جمعه، فهذا أنفع من الحفظ المجرد.",
+      "sourcePages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "lesson-07",
+    "slug": "cardinal-numbers",
+    "number": 7,
+    "title": "الأعداد الأصلية",
+    "description": "تعلّم الأعداد من 0 وما بعدها كما وردت في الكتاب مع طريقة النطق العربية.",
+    "unitId": "unit-numbers",
+    "unitTitle": "الأعداد والوقت والمقاييس",
+    "unitSlug": "numbers-time-and-measurements",
+    "level": "A1",
+    "duration": 35,
+    "status": "published",
+    "tags": [
+      "أعداد",
+      "نطق",
+      "مفردات"
+    ],
+    "skillFocus": [
+      "numbers",
+      "vocabulary"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nالأعداد من أكثر ما يحتاجه المتعلم في الحياة اليومية. يعرض الكتاب الرقم، ثم النطق العربي التقريبي، ثم المقابل الألماني.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "من صفر إلى عشرين",
+          "body": "ابدأ بحفظ سلسلة الأعداد الصغيرة لأنها تدخل في العمر والوقت والسعر والعنوان.",
+          "kind": "overview"
+        },
+        {
+          "title": "العشرات والمئات",
+          "body": "بعد ذلك يعرض الكتاب كلمات مثل **zwanzig** و **hundert** و **tausend** لبناء الأعداد الأكبر.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-07-1",
+          "german": "Null, eins, zwei",
+          "transliterationAr": "نول، آينس، تسفاي",
+          "meaningAr": "صفر، واحد، اثنان"
+        },
+        {
+          "id": "ex-07-2",
+          "german": "zehn, elf, zwölf",
+          "transliterationAr": "تسين، إلف، تسفولف",
+          "meaningAr": "عشرة، أحد عشر، اثنا عشر"
+        },
+        {
+          "id": "ex-07-3",
+          "german": "hundert",
+          "transliterationAr": "هوندرت",
+          "meaningAr": "مئة"
+        }
+      ],
+      "summary": "## الخلاصة\nقسّم الأعداد إلى مجموعات صغيرة عند الحفظ: 0–10 ثم 11–20 ثم العشرات.",
+      "sourcePages": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "id": "lesson-08",
+    "slug": "ordinals-fractions-and-multiples",
+    "number": 8,
+    "title": "الأعداد الترتيبية والكسور والأضعاف",
+    "description": "تعلّم الأول والثاني والثالث، ثم النصف والثلث والربع وكلمات مثل مرة ومرتين.",
+    "unitId": "unit-numbers",
+    "unitTitle": "الأعداد والوقت والمقاييس",
+    "unitSlug": "numbers-time-and-measurements",
+    "level": "A2",
+    "duration": 40,
+    "status": "published",
+    "tags": [
+      "ترتيبي",
+      "كسور",
+      "أضعاف"
+    ],
+    "skillFocus": [
+      "numbers"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيعرض الكتاب الأعداد الترتيبية، ثم ينتقل إلى الكسور والأضعاف وبعض التراكيب العددية الشائعة.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "الأعداد الترتيبية",
+          "body": "مثل **erste** و **zweite** و **dritte** وتستخدم في الترتيب والصفوف والطوابق والتواريخ.",
+          "kind": "grammar"
+        },
+        {
+          "title": "الكسور والأضعاف",
+          "body": "يشمل الكتاب كلمات مثل **Hälfte** للنصف و **Viertel** للربع و **einmal / zweimal / dreimal** للدلالة على عدد المرات.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-08-1",
+          "german": "das erste",
+          "transliterationAr": "داس إرسته",
+          "meaningAr": "الأول"
+        },
+        {
+          "id": "ex-08-2",
+          "german": "die Hälfte",
+          "transliterationAr": "دي هيلفته",
+          "meaningAr": "النصف"
+        },
+        {
+          "id": "ex-08-3",
+          "german": "zweimal",
+          "transliterationAr": "تسفاي مال",
+          "meaningAr": "مرتان"
+        }
+      ],
+      "summary": "## الخلاصة\nالأعداد الترتيبية مفيدة جداً في الطوابق، الصفوف، والمواعيد، أما الكسور فتظهر كثيراً في التسوق والطبخ.",
+      "sourcePages": [
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "id": "lesson-09",
+    "slug": "time-dates-and-measurements",
+    "number": 9,
+    "title": "الوقت والتواريخ والأوزان والمقاييس",
+    "description": "مفردات الوقت والطول والوزن كما وردت في الكتاب: سنة، شهر، يوم، كيلوغرام، متر وغيرها.",
+    "unitId": "unit-numbers",
+    "unitTitle": "الأعداد والوقت والمقاييس",
+    "unitSlug": "numbers-time-and-measurements",
+    "level": "A2",
+    "duration": 40,
+    "status": "published",
+    "tags": [
+      "وقت",
+      "مقاييس",
+      "أوزان"
+    ],
+    "skillFocus": [
+      "numbers",
+      "vocabulary"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيجمع الكتاب في هذه الصفحات مفردات تتعلق بالوقت والوحدات والمقاييس، وهي من أهم مفردات الاستعمال اليومي.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "أسماء الوقت",
+          "body": "من الكلمات الأساسية: **Jahr** سنة، **Monat** شهر، **Woche** أسبوع، **Tag** يوم، **Nacht** ليل.",
+          "kind": "overview"
+        },
+        {
+          "title": "الأوزان والمقاييس",
+          "body": "تظهر كلمات مثل **Kilogramm** و **Gramm** و **Kilometer** و **Meter** و **Hektar**.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-09-1",
+          "german": "ein Kilogramm",
+          "transliterationAr": "آين كيلوغرام",
+          "meaningAr": "كيلوغرام واحد"
+        },
+        {
+          "id": "ex-09-2",
+          "german": "ein Meter",
+          "transliterationAr": "آين ميتر",
+          "meaningAr": "متر واحد"
+        },
+        {
+          "id": "ex-09-3",
+          "german": "eine Woche",
+          "transliterationAr": "آينه فوخه",
+          "meaningAr": "أسبوع واحد"
+        }
+      ],
+      "summary": "## الخلاصة\nهذه المفردات عملية جداً في السفر والتسوق والسؤال عن الوقت والكميات.",
+      "sourcePages": [
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "lesson-10",
+    "slug": "common-verbs",
+    "number": 10,
+    "title": "الأفعال كثيرة الاستعمال",
+    "description": "مجموعة أفعال أساسية من الكتاب مثل essen و trinken و kommen و verstehen.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المفردات والاستعمال اليومي",
+    "unitSlug": "everyday-usage",
+    "level": "A1",
+    "duration": 45,
+    "status": "published",
+    "tags": [
+      "أفعال",
+      "استعمال يومي",
+      "ألمانية"
+    ],
+    "skillFocus": [
+      "vocabulary",
+      "conversation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nيركّز هذا الدرس على الأفعال التي تتكرر في الحياة اليومية، لأنها تساعد المتعلم على تكوين جمل مفيدة بسرعة.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "أفعال يومية",
+          "body": "اختر من كل فعل معنى واضحاً ومثالاً بسيطاً: **essen** يأكل، **trinken** يشرب، **kommen** يأتي.",
+          "kind": "usage"
+        },
+        {
+          "title": "أفعال مركبة",
+          "body": "بعض الأفعال تأتي مع إضافة تغيّر معناها مثل **aufmachen** يفتح و **zumachen** يغلق.",
+          "kind": "overview"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-10-1",
+          "german": "Ich verstehe.",
+          "transliterationAr": "إيش فِرشتهيه",
+          "meaningAr": "أنا أفهم."
+        },
+        {
+          "id": "ex-10-2",
+          "german": "Kommen Sie bitte.",
+          "transliterationAr": "كومن زي بيته",
+          "meaningAr": "تعال / تفضل من فضلك."
+        },
+        {
+          "id": "ex-10-3",
+          "german": "Wir trinken Wasser.",
+          "transliterationAr": "فير ترينكن فاسر",
+          "meaningAr": "نحن نشرب الماء."
+        }
+      ],
+      "summary": "## الخلاصة\nابدأ بحفظ الفعل في صيغة المصدر مع جملة قصيرة، فذلك يرسخه أسرع من الحفظ المنفصل.",
+      "sourcePages": [
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "id": "lesson-11",
+    "slug": "classroom-and-calculation-language",
+    "number": 11,
+    "title": "لغة الصف والعمليات الحسابية والمفردات العملية",
+    "description": "تعلّم كلمات الجمع والطرح والضرب والقسمة وبعض المفردات العملية المرتبطة بالوقت والوزن.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المفردات والاستعمال اليومي",
+    "unitSlug": "everyday-usage",
+    "level": "A2",
+    "duration": 35,
+    "status": "published",
+    "tags": [
+      "صف",
+      "حساب",
+      "مفردات عملية"
+    ],
+    "skillFocus": [
+      "vocabulary",
+      "numbers"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 11,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nهذه المجموعة مفيدة في الصف والعمل والحياة اليومية: أسماء العمليات الحسابية، وبعض الأفعال والصيغ المرتبطة بالتعليم والشرح.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "العمليات الحسابية",
+          "body": "يعرض الكتاب كلمات **Addition** و **Subtraktion** و **Multiplikation** و **Division** مع صيغ الأمر والاستعمال.",
+          "kind": "overview"
+        },
+        {
+          "title": "مفردات عملية",
+          "body": "كما تظهر كلمات مثل **Gewicht** وزن و **Zeit** وقت، وهي مفردات نافعة في المحادثات العملية.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-11-1",
+          "german": "Ich addiere.",
+          "transliterationAr": "إيش أدييره",
+          "meaningAr": "أنا أجمع."
+        },
+        {
+          "id": "ex-11-2",
+          "german": "Multiplizieren Sie.",
+          "transliterationAr": "مولتيبليتسيرن زي",
+          "meaningAr": "اضربوا / اضرب."
+        },
+        {
+          "id": "ex-11-3",
+          "german": "Die Zeit",
+          "transliterationAr": "دي تسايت",
+          "meaningAr": "الوقت"
+        }
+      ],
+      "summary": "## الخلاصة\nركّز على فهم معنى الكلمة وسياقها العملي، لا على حفظ الشكل فقط.",
+      "sourcePages": [
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "lesson-12",
+    "slug": "everyday-vocabulary-and-mini-dialogues",
+    "number": 12,
+    "title": "مفردات يومية ومحادثات قصيرة",
+    "description": "يضم تعبيرات الاعتذار والسفر والفندق والدعوات والتسوق من صفحات مختلفة في الكتاب.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المفردات والاستعمال اليومي",
+    "unitSlug": "everyday-usage",
+    "level": "A2",
+    "duration": 50,
+    "status": "published",
+    "tags": [
+      "محادثات",
+      "سفر",
+      "تسوق",
+      "فندق"
+    ],
+    "skillFocus": [
+      "conversation",
+      "vocabulary"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 11,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nفي هذه الصفحات يقدم الكتاب عبارات جاهزة للاستعمال اليومي. إعادة تنظيمها في درس واحد تساعد المتعلم على استخدامها في مواقف حقيقية.",
+      "objectives": [
+        "فهم الفكرة الأساسية للدرس",
+        "اكتساب مفردات قابلة للاستعمال",
+        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+      ],
+      "sections": [
+        {
+          "title": "عبارات الاعتذار والتهذيب",
+          "body": "مثل **Entschuldigung** و **Bitte**، وهي من أول ما يحتاجه المتعلم في الحديث اليومي.",
+          "kind": "usage"
+        },
+        {
+          "title": "مواقف عملية",
+          "body": "يتضمن الكتاب مواقف في السفر، الفندق، الدعوات، والتسوق، ويمكن تحويلها بسهولة إلى محادثات قصيرة وتمارين فهم.",
+          "kind": "overview"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "ex-12-1",
+          "german": "Entschuldigung, ich habe mich verspätet.",
+          "transliterationAr": "إنتشولديغونغ، إيش هابه ميش فرشبييتت",
+          "meaningAr": "عذراً، لقد تأخرت."
+        },
+        {
+          "id": "ex-12-2",
+          "german": "Ich möchte eine Fahrkarte.",
+          "transliterationAr": "إيش موشته آينه فاركارتة",
+          "meaningAr": "أريد تذكرة سفر."
+        },
+        {
+          "id": "ex-12-3",
+          "german": "Haben Sie ein Einzelzimmer?",
+          "transliterationAr": "هابن زي آين أينتسل تسيمر؟",
+          "meaningAr": "هل لديكم غرفة مفردة؟"
+        }
+      ],
+      "summary": "## الخلاصة\nأفضل طريقة لهذا النوع من الدروس هي التكرار الصوتي وتمثيل الموقف بصيغة سؤال وجواب.",
+      "sourcePages": [
+        20,
+        30,
+        40,
+        70,
+        80
+      ]
+    }
+  }
+]

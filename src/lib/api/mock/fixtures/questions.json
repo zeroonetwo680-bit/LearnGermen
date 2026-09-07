@@ -1,0 +1,1668 @@
+[
+  {
+    "id": "q-01-1",
+    "lessonId": "lesson-01",
+    "type": "single-choice",
+    "question": "أي كلمة استخدمت في الكتاب مثالاً على الحرف A؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apfel"
+      },
+      {
+        "id": "b",
+        "text": "Baum"
+      },
+      {
+        "id": "c",
+        "text": "Haus"
+      },
+      {
+        "id": "d",
+        "text": "Zug"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "استُخدمت كلمة Apfel مثالاً على الحرف A.",
+    "points": 1
+  },
+  {
+    "id": "q-01-2",
+    "lessonId": "lesson-01",
+    "type": "single-choice",
+    "question": "كيف يُنطق الحرف J تقريباً؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "كالجيم"
+      },
+      {
+        "id": "b",
+        "text": "كالياء"
+      },
+      {
+        "id": "c",
+        "text": "كالقاف"
+      },
+      {
+        "id": "d",
+        "text": "كالشين"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "الحرف J ينطق قريباً من الياء في كلمات مثل Jahr.",
+    "points": 1
+  },
+  {
+    "id": "q-01-3",
+    "lessonId": "lesson-01",
+    "type": "multiple-choice",
+    "question": "اختر كلمتين وردتا مثالاً في صفحات الحروف.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fisch"
+      },
+      {
+        "id": "b",
+        "text": "Nation"
+      },
+      {
+        "id": "c",
+        "text": "Baum"
+      },
+      {
+        "id": "d",
+        "text": "Addition"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c"
+    ],
+    "explanation": "Fisch و Baum من أمثلة الحروف، أما Nation و Addition فتأتي في دروس لاحقة.",
+    "points": 1
+  },
+  {
+    "id": "q-01-4",
+    "lessonId": "lesson-01",
+    "type": "true-false",
+    "question": "الحرف Z في الألمانية ينطق قريباً من \"تس\".",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "هذه من النقاط الأساسية في الدرس.",
+    "points": 1
+  },
+  {
+    "id": "q-01-5",
+    "lessonId": "lesson-01",
+    "type": "single-choice",
+    "question": "ما معنى كلمة Haus؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "بيت"
+      },
+      {
+        "id": "b",
+        "text": "مدرسة"
+      },
+      {
+        "id": "c",
+        "text": "قطار"
+      },
+      {
+        "id": "d",
+        "text": "كتاب"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Haus تعني بيت.",
+    "points": 1
+  },
+  {
+    "id": "q-02-1",
+    "lessonId": "lesson-02",
+    "type": "single-choice",
+    "question": "ما الصوت التقريبي للتركيب eu؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "آي"
+      },
+      {
+        "id": "b",
+        "text": "أوي"
+      },
+      {
+        "id": "c",
+        "text": "او"
+      },
+      {
+        "id": "d",
+        "text": "يي"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "eu يلفظ قريباً من أوي.",
+    "points": 1
+  },
+  {
+    "id": "q-02-2",
+    "lessonId": "lesson-02",
+    "type": "single-choice",
+    "question": "أي كلمة تمثل صوت ei؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schule"
+      },
+      {
+        "id": "b",
+        "text": "Frankreich"
+      },
+      {
+        "id": "c",
+        "text": "Deutsch"
+      },
+      {
+        "id": "d",
+        "text": "Frau"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "في الكتاب: Frankreich مثال واضح على ei.",
+    "points": 1
+  },
+  {
+    "id": "q-02-3",
+    "lessonId": "lesson-02",
+    "type": "multiple-choice",
+    "question": "اختر الكلمات التي تبدأ بتركيب له صوت خاص في الدرس.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schule"
+      },
+      {
+        "id": "b",
+        "text": "Straße"
+      },
+      {
+        "id": "c",
+        "text": "Buch"
+      },
+      {
+        "id": "d",
+        "text": "Frau"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Schule و Straße و Frau أمثلة على تراكيب خاصة مذكورة هنا.",
+    "points": 1
+  },
+  {
+    "id": "q-02-4",
+    "lessonId": "lesson-02",
+    "type": "true-false",
+    "question": "يمكن كتابة ü أحياناً على صورة ue.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "الكتاب يشير إلى هذا البديل الكتابي.",
+    "points": 1
+  },
+  {
+    "id": "q-02-5",
+    "lessonId": "lesson-02",
+    "type": "single-choice",
+    "question": "ما معنى Straße؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "مدرسة"
+      },
+      {
+        "id": "b",
+        "text": "مدينة"
+      },
+      {
+        "id": "c",
+        "text": "شارع"
+      },
+      {
+        "id": "d",
+        "text": "تمرين"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "Straße تعني شارع.",
+    "points": 1
+  },
+  {
+    "id": "q-03-1",
+    "lessonId": "lesson-03",
+    "type": "single-choice",
+    "question": "كيف يُنطق ch بعد a أو o أو u غالباً؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "ش"
+      },
+      {
+        "id": "b",
+        "text": "خ"
+      },
+      {
+        "id": "c",
+        "text": "ج"
+      },
+      {
+        "id": "d",
+        "text": "ف"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "يقترب من الخاء في كلمات مثل Nacht و Buch.",
+    "points": 1
+  },
+  {
+    "id": "q-03-2",
+    "lessonId": "lesson-03",
+    "type": "single-choice",
+    "question": "أي كلمة مثال على النهاية tion؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nation"
+      },
+      {
+        "id": "b",
+        "text": "Ich"
+      },
+      {
+        "id": "c",
+        "text": "Buch"
+      },
+      {
+        "id": "d",
+        "text": "Klasse"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Nation من أمثلة هذا النمط.",
+    "points": 1
+  },
+  {
+    "id": "q-03-3",
+    "lessonId": "lesson-03",
+    "type": "multiple-choice",
+    "question": "اختر الكلمات التي تحتوي على ch بصوته الخاص.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nacht"
+      },
+      {
+        "id": "b",
+        "text": "Buch"
+      },
+      {
+        "id": "c",
+        "text": "Mann"
+      },
+      {
+        "id": "d",
+        "text": "Ich"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Nacht و Buch و Ich كلها أمثلة على ch.",
+    "points": 1
+  },
+  {
+    "id": "q-03-4",
+    "lessonId": "lesson-03",
+    "type": "true-false",
+    "question": "الحرف ß يعامل في النطق قريباً من ss.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "هذه قاعدة مذكورة في الكتاب.",
+    "points": 1
+  },
+  {
+    "id": "q-03-5",
+    "lessonId": "lesson-03",
+    "type": "single-choice",
+    "question": "ما معنى Buch؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "كتاب"
+      },
+      {
+        "id": "b",
+        "text": "صف"
+      },
+      {
+        "id": "c",
+        "text": "أنا"
+      },
+      {
+        "id": "d",
+        "text": "ليلة"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Buch تعني كتاب.",
+    "points": 1
+  },
+  {
+    "id": "q-04-1",
+    "lessonId": "lesson-04",
+    "type": "single-choice",
+    "question": "ما أداة التعريف للمذكر؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Der"
+      },
+      {
+        "id": "b",
+        "text": "Die"
+      },
+      {
+        "id": "c",
+        "text": "Das"
+      },
+      {
+        "id": "d",
+        "text": "Ein"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Der للمذكر.",
+    "points": 1
+  },
+  {
+    "id": "q-04-2",
+    "lessonId": "lesson-04",
+    "type": "single-choice",
+    "question": "ما أداة التعريف للمحايد؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Die"
+      },
+      {
+        "id": "b",
+        "text": "Das"
+      },
+      {
+        "id": "c",
+        "text": "Kein"
+      },
+      {
+        "id": "d",
+        "text": "Dieser"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Das للمحايد.",
+    "points": 1
+  },
+  {
+    "id": "q-04-3",
+    "lessonId": "lesson-04",
+    "type": "multiple-choice",
+    "question": "أي الأدوات تستخدم للنفي بحسب الكتاب؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "kein"
+      },
+      {
+        "id": "b",
+        "text": "keine"
+      },
+      {
+        "id": "c",
+        "text": "der"
+      },
+      {
+        "id": "d",
+        "text": "das"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "explanation": "kein و keine من أدوات النفي في الدرس.",
+    "points": 1
+  },
+  {
+    "id": "q-04-4",
+    "lessonId": "lesson-04",
+    "type": "true-false",
+    "question": "ينصح الدرس بحفظ الاسم مع أداة التعريف الخاصة به.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "هذا من أهم مبادئ تعلّم الألمانية.",
+    "points": 1
+  },
+  {
+    "id": "q-04-5",
+    "lessonId": "lesson-04",
+    "type": "single-choice",
+    "question": "ما معنى das Kind؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "المرأة"
+      },
+      {
+        "id": "b",
+        "text": "الرجل"
+      },
+      {
+        "id": "c",
+        "text": "الطفل"
+      },
+      {
+        "id": "d",
+        "text": "البيت"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "das Kind تعني الطفل.",
+    "points": 1
+  },
+  {
+    "id": "q-05-1",
+    "lessonId": "lesson-05",
+    "type": "single-choice",
+    "question": "إلى أي ضمير يتحول الاسم المذكر غالباً؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "sie"
+      },
+      {
+        "id": "b",
+        "text": "es"
+      },
+      {
+        "id": "c",
+        "text": "er"
+      },
+      {
+        "id": "d",
+        "text": "wir"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "الاسم المذكر يتحول غالباً إلى er.",
+    "points": 1
+  },
+  {
+    "id": "q-05-2",
+    "lessonId": "lesson-05",
+    "type": "single-choice",
+    "question": "ما معنى ich؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "أنت"
+      },
+      {
+        "id": "b",
+        "text": "أنا"
+      },
+      {
+        "id": "c",
+        "text": "هو"
+      },
+      {
+        "id": "d",
+        "text": "هم"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "ich تعني أنا.",
+    "points": 1
+  },
+  {
+    "id": "q-05-3",
+    "lessonId": "lesson-05",
+    "type": "multiple-choice",
+    "question": "اختر الضمائر الأساسية الواردة في الدرس.",
+    "options": [
+      {
+        "id": "a",
+        "text": "er"
+      },
+      {
+        "id": "b",
+        "text": "sie"
+      },
+      {
+        "id": "c",
+        "text": "es"
+      },
+      {
+        "id": "d",
+        "text": "Buch"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Buch اسم وليس ضميراً.",
+    "points": 1
+  },
+  {
+    "id": "q-05-4",
+    "lessonId": "lesson-05",
+    "type": "true-false",
+    "question": "الفعل في الجملة الألمانية البسيطة يأتي غالباً في المرتبة الثانية.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "هذه ملاحظة محورية في الدرس.",
+    "points": 1
+  },
+  {
+    "id": "q-05-5",
+    "lessonId": "lesson-05",
+    "type": "single-choice",
+    "question": "ما معنى الجملة Ich bin hier؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "أنا هنا"
+      },
+      {
+        "id": "b",
+        "text": "هو يأتي اليوم"
+      },
+      {
+        "id": "c",
+        "text": "هي هنا"
+      },
+      {
+        "id": "d",
+        "text": "نحن نذهب"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Ich bin hier تعني أنا هنا.",
+    "points": 1
+  },
+  {
+    "id": "q-06-1",
+    "lessonId": "lesson-06",
+    "type": "single-choice",
+    "question": "أي حرف جر يعني \"في / داخل\"؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "zu"
+      },
+      {
+        "id": "b",
+        "text": "in"
+      },
+      {
+        "id": "c",
+        "text": "aus"
+      },
+      {
+        "id": "d",
+        "text": "bis"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "in يعني في / داخل.",
+    "points": 1
+  },
+  {
+    "id": "q-06-2",
+    "lessonId": "lesson-06",
+    "type": "single-choice",
+    "question": "ما جمع Freund؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Freunder"
+      },
+      {
+        "id": "b",
+        "text": "Freunde"
+      },
+      {
+        "id": "c",
+        "text": "Freundes"
+      },
+      {
+        "id": "d",
+        "text": "Frauen"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "جمع Freund هو Freunde.",
+    "points": 1
+  },
+  {
+    "id": "q-06-3",
+    "lessonId": "lesson-06",
+    "type": "multiple-choice",
+    "question": "اختر حروف الجر المذكورة في الدرس.",
+    "options": [
+      {
+        "id": "a",
+        "text": "nach"
+      },
+      {
+        "id": "b",
+        "text": "von"
+      },
+      {
+        "id": "c",
+        "text": "aus"
+      },
+      {
+        "id": "d",
+        "text": "Kind"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Kind اسم وليس حرف جر.",
+    "points": 1
+  },
+  {
+    "id": "q-06-4",
+    "lessonId": "lesson-06",
+    "type": "true-false",
+    "question": "يوجد في الألمانية قاعدة واحدة ثابتة لكل صيغ الجمع.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "false"
+    ],
+    "explanation": "الكتاب ينبه إلى أن الجمع يحتاج حفظاً منفصلاً في كثير من الأحيان.",
+    "points": 1
+  },
+  {
+    "id": "q-06-5",
+    "lessonId": "lesson-06",
+    "type": "single-choice",
+    "question": "ما معنى aus؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "حتى"
+      },
+      {
+        "id": "b",
+        "text": "من / خارج"
+      },
+      {
+        "id": "c",
+        "text": "إلى"
+      },
+      {
+        "id": "d",
+        "text": "داخل"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "aus يدل على من / خارج.",
+    "points": 1
+  },
+  {
+    "id": "q-07-1",
+    "lessonId": "lesson-07",
+    "type": "single-choice",
+    "question": "ما المقابل الألماني للعدد 0؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "eins"
+      },
+      {
+        "id": "b",
+        "text": "null"
+      },
+      {
+        "id": "c",
+        "text": "zehn"
+      },
+      {
+        "id": "d",
+        "text": "zwei"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "0 = Null.",
+    "points": 1
+  },
+  {
+    "id": "q-07-2",
+    "lessonId": "lesson-07",
+    "type": "single-choice",
+    "question": "ما المقابل الألماني للعدد 12؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "zwölf"
+      },
+      {
+        "id": "b",
+        "text": "drei"
+      },
+      {
+        "id": "c",
+        "text": "hundert"
+      },
+      {
+        "id": "d",
+        "text": "fünf"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "12 = zwölf.",
+    "points": 1
+  },
+  {
+    "id": "q-07-3",
+    "lessonId": "lesson-07",
+    "type": "multiple-choice",
+    "question": "اختر أعداداً وردت في الدرس.",
+    "options": [
+      {
+        "id": "a",
+        "text": "zwanzig"
+      },
+      {
+        "id": "b",
+        "text": "tausend"
+      },
+      {
+        "id": "c",
+        "text": "Monat"
+      },
+      {
+        "id": "d",
+        "text": "hundert"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Monat اسم وقت وليس عدداً.",
+    "points": 1
+  },
+  {
+    "id": "q-07-4",
+    "lessonId": "lesson-07",
+    "type": "true-false",
+    "question": "كلمة hundert تعني مئة.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "hundert = 100.",
+    "points": 1
+  },
+  {
+    "id": "q-07-5",
+    "lessonId": "lesson-07",
+    "type": "single-choice",
+    "question": "ما معنى zwei؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "واحد"
+      },
+      {
+        "id": "b",
+        "text": "اثنان"
+      },
+      {
+        "id": "c",
+        "text": "ثلاثة"
+      },
+      {
+        "id": "d",
+        "text": "عشرة"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "zwei تعني اثنان.",
+    "points": 1
+  },
+  {
+    "id": "q-08-1",
+    "lessonId": "lesson-08",
+    "type": "single-choice",
+    "question": "ما معنى zweite؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "الأول"
+      },
+      {
+        "id": "b",
+        "text": "الثاني"
+      },
+      {
+        "id": "c",
+        "text": "الثالث"
+      },
+      {
+        "id": "d",
+        "text": "العاشر"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "zweite تعني الثاني.",
+    "points": 1
+  },
+  {
+    "id": "q-08-2",
+    "lessonId": "lesson-08",
+    "type": "single-choice",
+    "question": "ما المقابل الألماني لكلمة النصف؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Viertel"
+      },
+      {
+        "id": "b",
+        "text": "Hälfte"
+      },
+      {
+        "id": "c",
+        "text": "Drittel"
+      },
+      {
+        "id": "d",
+        "text": "Dutzend"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Hälfte تعني النصف.",
+    "points": 1
+  },
+  {
+    "id": "q-08-3",
+    "lessonId": "lesson-08",
+    "type": "multiple-choice",
+    "question": "اختر كلمات تدل على عدد المرات.",
+    "options": [
+      {
+        "id": "a",
+        "text": "einmal"
+      },
+      {
+        "id": "b",
+        "text": "zweimal"
+      },
+      {
+        "id": "c",
+        "text": "erste"
+      },
+      {
+        "id": "d",
+        "text": "dreimal"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "erste ترتيبي وليس عدداً للمرة.",
+    "points": 1
+  },
+  {
+    "id": "q-08-4",
+    "lessonId": "lesson-08",
+    "type": "true-false",
+    "question": "Viertel تعني الربع.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "Viertel = الربع.",
+    "points": 1
+  },
+  {
+    "id": "q-08-5",
+    "lessonId": "lesson-08",
+    "type": "single-choice",
+    "question": "ما معنى Dutzend؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "متر"
+      },
+      {
+        "id": "b",
+        "text": "دزينة"
+      },
+      {
+        "id": "c",
+        "text": "ليلة"
+      },
+      {
+        "id": "d",
+        "text": "صف"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Dutzend تعني دزينة.",
+    "points": 1
+  },
+  {
+    "id": "q-09-1",
+    "lessonId": "lesson-09",
+    "type": "single-choice",
+    "question": "ما معنى Woche؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "شهر"
+      },
+      {
+        "id": "b",
+        "text": "أسبوع"
+      },
+      {
+        "id": "c",
+        "text": "سنة"
+      },
+      {
+        "id": "d",
+        "text": "ليل"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Woche تعني أسبوع.",
+    "points": 1
+  },
+  {
+    "id": "q-09-2",
+    "lessonId": "lesson-09",
+    "type": "single-choice",
+    "question": "أي كلمة تعني كيلوغرام؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kilometer"
+      },
+      {
+        "id": "b",
+        "text": "Kilogramm"
+      },
+      {
+        "id": "c",
+        "text": "Grammatik"
+      },
+      {
+        "id": "d",
+        "text": "Meter"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Kilogramm = كيلوغرام.",
+    "points": 1
+  },
+  {
+    "id": "q-09-3",
+    "lessonId": "lesson-09",
+    "type": "multiple-choice",
+    "question": "اختر مفردات تتعلق بالوقت.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jahr"
+      },
+      {
+        "id": "b",
+        "text": "Monat"
+      },
+      {
+        "id": "c",
+        "text": "Tag"
+      },
+      {
+        "id": "d",
+        "text": "Gramm"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Gramm وحدة وزن.",
+    "points": 1
+  },
+  {
+    "id": "q-09-4",
+    "lessonId": "lesson-09",
+    "type": "true-false",
+    "question": "Meter وحدة قياس للطول.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "Meter من أهم وحدات الطول.",
+    "points": 1
+  },
+  {
+    "id": "q-09-5",
+    "lessonId": "lesson-09",
+    "type": "single-choice",
+    "question": "ما معنى Uhr؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "ساعة"
+      },
+      {
+        "id": "b",
+        "text": "وزن"
+      },
+      {
+        "id": "c",
+        "text": "مدينة"
+      },
+      {
+        "id": "d",
+        "text": "غرفة"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Uhr تستخدم للساعة والوقت.",
+    "points": 1
+  },
+  {
+    "id": "q-10-1",
+    "lessonId": "lesson-10",
+    "type": "single-choice",
+    "question": "ما معنى Essen؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "يشرب"
+      },
+      {
+        "id": "b",
+        "text": "يأكل"
+      },
+      {
+        "id": "c",
+        "text": "يفهم"
+      },
+      {
+        "id": "d",
+        "text": "يظهر"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Essen يعني يأكل.",
+    "points": 1
+  },
+  {
+    "id": "q-10-2",
+    "lessonId": "lesson-10",
+    "type": "single-choice",
+    "question": "أي فعل يعني يفهم؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kochen"
+      },
+      {
+        "id": "b",
+        "text": "Verstehen"
+      },
+      {
+        "id": "c",
+        "text": "Kommen"
+      },
+      {
+        "id": "d",
+        "text": "Landen"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Verstehen = يفهم.",
+    "points": 1
+  },
+  {
+    "id": "q-10-3",
+    "lessonId": "lesson-10",
+    "type": "multiple-choice",
+    "question": "اختر أفعالاً وردت في الدرس.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trinken"
+      },
+      {
+        "id": "b",
+        "text": "Kommen"
+      },
+      {
+        "id": "c",
+        "text": "Buch"
+      },
+      {
+        "id": "d",
+        "text": "Kochen"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Buch اسم وليس فعلاً.",
+    "points": 1
+  },
+  {
+    "id": "q-10-4",
+    "lessonId": "lesson-10",
+    "type": "true-false",
+    "question": "Zumachen فعل يدل على الإغلاق.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "Zumachen يعني يغلق.",
+    "points": 1
+  },
+  {
+    "id": "q-10-5",
+    "lessonId": "lesson-10",
+    "type": "single-choice",
+    "question": "ما معنى الجملة Ich verstehe؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "أنا أشرب"
+      },
+      {
+        "id": "b",
+        "text": "أنا أفهم"
+      },
+      {
+        "id": "c",
+        "text": "أنا آكل"
+      },
+      {
+        "id": "d",
+        "text": "أنا أغلق"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Ich verstehe تعني أنا أفهم.",
+    "points": 1
+  },
+  {
+    "id": "q-11-1",
+    "lessonId": "lesson-11",
+    "type": "single-choice",
+    "question": "ما معنى Addition؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "ضرب"
+      },
+      {
+        "id": "b",
+        "text": "طرح"
+      },
+      {
+        "id": "c",
+        "text": "جمع"
+      },
+      {
+        "id": "d",
+        "text": "قسمة"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "Addition تعني جمع.",
+    "points": 1
+  },
+  {
+    "id": "q-11-2",
+    "lessonId": "lesson-11",
+    "type": "single-choice",
+    "question": "أي كلمة تعني القسمة؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Division"
+      },
+      {
+        "id": "b",
+        "text": "Zeit"
+      },
+      {
+        "id": "c",
+        "text": "Gewicht"
+      },
+      {
+        "id": "d",
+        "text": "Addition"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Division = قسمة.",
+    "points": 1
+  },
+  {
+    "id": "q-11-3",
+    "lessonId": "lesson-11",
+    "type": "multiple-choice",
+    "question": "اختر أسماء العمليات الحسابية.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Subtraktion"
+      },
+      {
+        "id": "b",
+        "text": "Multiplikation"
+      },
+      {
+        "id": "c",
+        "text": "Gewicht"
+      },
+      {
+        "id": "d",
+        "text": "Division"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Gewicht تعني وزن.",
+    "points": 1
+  },
+  {
+    "id": "q-11-4",
+    "lessonId": "lesson-11",
+    "type": "true-false",
+    "question": "Zeit تعني الوقت.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "Zeit = وقت.",
+    "points": 1
+  },
+  {
+    "id": "q-11-5",
+    "lessonId": "lesson-11",
+    "type": "single-choice",
+    "question": "ما معنى Ich addiere؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "أنا أجمع"
+      },
+      {
+        "id": "b",
+        "text": "أنا أطرح"
+      },
+      {
+        "id": "c",
+        "text": "أنا أضرب"
+      },
+      {
+        "id": "d",
+        "text": "أنا أقيس"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Ich addiere تعني أنا أجمع.",
+    "points": 1
+  },
+  {
+    "id": "q-12-1",
+    "lessonId": "lesson-12",
+    "type": "single-choice",
+    "question": "ما معنى Fahrkarte؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "فندق"
+      },
+      {
+        "id": "b",
+        "text": "تذكرة سفر"
+      },
+      {
+        "id": "c",
+        "text": "مفتاح"
+      },
+      {
+        "id": "d",
+        "text": "اعتذار"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Fahrkarte تعني تذكرة سفر.",
+    "points": 1
+  },
+  {
+    "id": "q-12-2",
+    "lessonId": "lesson-12",
+    "type": "single-choice",
+    "question": "أي عبارة تستخدم للاعتذار؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "bitte"
+      },
+      {
+        "id": "b",
+        "text": "Entschuldigung"
+      },
+      {
+        "id": "c",
+        "text": "morgen"
+      },
+      {
+        "id": "d",
+        "text": "Geschäft"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Entschuldigung تستخدم للاعتذار.",
+    "points": 1
+  },
+  {
+    "id": "q-12-3",
+    "lessonId": "lesson-12",
+    "type": "multiple-choice",
+    "question": "اختر كلمات مرتبطة بموقف الفندق أو السفر.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Einzelzimmer"
+      },
+      {
+        "id": "b",
+        "text": "Schlüssel"
+      },
+      {
+        "id": "c",
+        "text": "Kleidung"
+      },
+      {
+        "id": "d",
+        "text": "Fahrkarte"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "Kleidung تعني ملابس وهي للتسوق أكثر.",
+    "points": 1
+  },
+  {
+    "id": "q-12-4",
+    "lessonId": "lesson-12",
+    "type": "true-false",
+    "question": "morgen تعني غداً.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "morgen = غداً.",
+    "points": 1
+  },
+  {
+    "id": "q-12-5",
+    "lessonId": "lesson-12",
+    "type": "single-choice",
+    "question": "ما معنى Haben Sie ein Einzelzimmer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "هل عندكم غرفة مفردة؟"
+      },
+      {
+        "id": "b",
+        "text": "أريد تذكرة سفر."
+      },
+      {
+        "id": "c",
+        "text": "أين المحل؟"
+      },
+      {
+        "id": "d",
+        "text": "أعطني المفتاح."
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "الجملة تسأل عن غرفة مفردة.",
+    "points": 1
+  }
+]
