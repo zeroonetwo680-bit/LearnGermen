@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { Sparkles } from "lucide-react";
 import { LessonDetail } from "@/components/lessons/lesson-detail";
 import { LessonHeader } from "@/components/lessons/lesson-header";
 import { LessonNavigation } from "@/components/lessons/lesson-navigation";
@@ -49,7 +50,8 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
         ]}
       />
       <LessonHeader lesson={lesson} />
-      <p className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
+      <p className="premium-card inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm text-slate-600 dark:text-slate-300">
+        <Sparkles className="size-4 text-amber-500" />
         المصدر: الصفحات {lesson.content.sourcePages.join("، ")} من الكتاب.
       </p>
       <LessonDetail lesson={lesson} vocabulary={vocabulary} exercises={exercises} resources={resources} />
