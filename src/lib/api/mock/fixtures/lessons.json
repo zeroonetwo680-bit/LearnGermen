@@ -780,7 +780,7 @@
     "title": "الأفعال كثيرة الاستعمال",
     "description": "مجموعة أفعال أساسية من الكتاب مثل essen و trinken و kommen و verstehen.",
     "unitId": "unit-everyday",
-    "unitTitle": "المفردات والاستعمال اليومي",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
     "unitSlug": "everyday-usage",
     "level": "A1",
     "duration": 45,
@@ -852,7 +852,7 @@
     "title": "لغة الصف والعمليات الحسابية والمفردات العملية",
     "description": "تعلّم كلمات الجمع والطرح والضرب والقسمة وبعض المفردات العملية المرتبطة بالوقت والوزن.",
     "unitId": "unit-everyday",
-    "unitTitle": "المفردات والاستعمال اليومي",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
     "unitSlug": "everyday-usage",
     "level": "A2",
     "duration": 35,
@@ -921,75 +921,369 @@
     "id": "lesson-12",
     "slug": "everyday-vocabulary-and-mini-dialogues",
     "number": 12,
-    "title": "مفردات يومية ومحادثات قصيرة",
-    "description": "يضم تعبيرات الاعتذار والسفر والفندق والدعوات والتسوق من صفحات مختلفة في الكتاب.",
+    "title": "مفردات السفر والمطار",
+    "description": "من صفحات السفر المتأخرة في الكتاب: شراء التذكرة، الحجز، والوصول إلى المطار.",
     "unitId": "unit-everyday",
-    "unitTitle": "المفردات والاستعمال اليومي",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
     "unitSlug": "everyday-usage",
-    "level": "A2",
+    "level": "A1",
     "duration": 50,
     "status": "published",
     "tags": [
-      "محادثات",
       "سفر",
-      "تسوق",
-      "فندق"
+      "مطار",
+      "حجز"
     ],
     "skillFocus": [
-      "conversation",
-      "vocabulary"
+      "vocabulary",
+      "conversation"
     ],
     "questionCount": 5,
     "exerciseCount": 3,
-    "vocabularyCount": 11,
+    "vocabularyCount": 10,
     "updatedAt": "2026-09-07",
     "content": {
-      "introduction": "## مقدمة\nفي هذه الصفحات يقدم الكتاب عبارات جاهزة للاستعمال اليومي. إعادة تنظيمها في درس واحد تساعد المتعلم على استخدامها في مواقف حقيقية.",
+      "introduction": "## مقدمة\nتُظهر صفحات 30–33 من الكتاب حوارات عملية في مكتب السفر والمطار: طلب التذكرة، الحجز، السؤال عن المطار والوزن المسموح، ومراجعة الجواز ومكتب المعلومات.",
       "objectives": [
-        "فهم الفكرة الأساسية للدرس",
-        "اكتساب مفردات قابلة للاستعمال",
-        "التدرّب على القراءة والنطق والمراجعة الذاتية"
+        "طلب تذكرة أو حجز مقعد بلغة بسيطة",
+        "السؤال عن الطريق إلى المطار والوزن المسموح",
+        "فهم مفردات الجواز ومكتب المعلومات"
       ],
       "sections": [
         {
-          "title": "عبارات الاعتذار والتهذيب",
-          "body": "مثل **Entschuldigung** و **Bitte**، وهي من أول ما يحتاجه المتعلم في الحديث اليومي.",
+          "title": "شراء التذكرة والحجز",
+          "body": "تتكرر في هذه الصفحات صيغ جاهزة مثل Ich möchte eine Fahrkarte و Wie viel kostet ... مع مفردات Fahrkarte و Flugkarte و reservieren و Platz. الهدف هنا أن يعتاد المتعلم طلب التذكرة أو السؤال عن السعر والحجز دون حاجة إلى شرح طويل.",
           "kind": "usage"
         },
         {
-          "title": "مواقف عملية",
-          "body": "يتضمن الكتاب مواقف في السفر، الفندق، الدعوات، والتسوق، ويمكن تحويلها بسهولة إلى محادثات قصيرة وتمارين فهم.",
-          "kind": "overview"
+          "title": "في المطار",
+          "body": "تنتقل الحوارات بعد ذلك إلى المطار نفسه: السؤال عن Flughafen ومكتب المعلومات Informationbüro، وإبراز Reisepass، ومعرفة وزن الحقائب Gewicht أو طلب Taxi إلى المطار.",
+          "kind": "usage"
         }
       ],
       "pronunciationRules": [],
       "examples": [
         {
-          "id": "ex-12-1",
-          "german": "Entschuldigung, ich habe mich verspätet.",
-          "transliterationAr": "إنتشولديغونغ، إيش هابه ميش فرشبييتت",
-          "meaningAr": "عذراً، لقد تأخرت."
-        },
-        {
-          "id": "ex-12-2",
+          "id": "l12-ex-1",
           "german": "Ich möchte eine Fahrkarte.",
-          "transliterationAr": "إيش موشته آينه فاركارتة",
+          "transliterationAr": "إيش موشته آينه فاركارته",
           "meaningAr": "أريد تذكرة سفر."
         },
         {
-          "id": "ex-12-3",
+          "id": "l12-ex-2",
+          "german": "Wie kann ich zum Flughafen kommen?",
+          "transliterationAr": "في كان إيش تسوم فلوغهافن كومن؟",
+          "meaningAr": "كيف يمكنني الوصول إلى المطار؟"
+        },
+        {
+          "id": "l12-ex-3",
+          "german": "Geben Sie mir Ihren Reisepass.",
+          "transliterationAr": "غيبن زي مير إيرن رايزباس",
+          "meaningAr": "أعطني جواز سفرك."
+        }
+      ],
+      "summary": "## الخلاصة\nاحفظ قالبين أساسيين من هذا الدرس: **Ich möchte...** للطلب، و **Wie viel / Wie kann...** للسؤال عن السعر أو الطريق.",
+      "sourcePages": [
+        30,
+        31,
+        32,
+        33
+      ]
+    }
+  },
+  {
+    "id": "lesson-13",
+    "slug": "hotel-restaurant-and-service-requests",
+    "number": 13,
+    "title": "الفندق والمطعم وطلبات الخدمة",
+    "description": "يغطي حجز الغرفة، طلب المفتاح والفطور، والتخاطب مع النادل أو موظف الفندق.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
+    "unitSlug": "everyday-usage",
+    "level": "A1",
+    "duration": 50,
+    "status": "published",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ],
+    "skillFocus": [
+      "vocabulary",
+      "conversation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nتجمع صفحات 39–41 من الكتاب مواقف سكنية وخدمية متتابعة: استئجار غرفة، حجز فندق، طلب المفتاح والفطور، ثم الحديث مع النادل وطلب القائمة والطاولة.",
+      "objectives": [
+        "حجز غرفة والسؤال عن توفرها وسعرها",
+        "طلب خدمات الغرفة مثل المفتاح والمنشفة والإيقاظ",
+        "استخدام عبارات المطعم الأساسية مع النادل والقائمة"
+      ],
+      "sections": [
+        {
+          "title": "حجز الغرفة",
+          "body": "تقدّم الصفحات عبارات مباشرة مثل Haben Sie ein Einzelzimmer? و Wie viel kostet es im Monat? ثم تنتقل إلى حجز الغرفة واستلام المفتاح وذكر وجبة Frühstück. هذه الصيغ مفيدة للمتعلم الذي يريد إنجاز مهمة عملية بسرعة.",
+          "kind": "usage"
+        },
+        {
+          "title": "طلبات الخدمة والمطعم",
+          "body": "يظهر في الدرس طلب Handtuch آخر، وطلب الإيقاظ صباحاً، ثم عبارات المطعم مثل Geben Sie mir die Speisekarte وسؤال النادل Kellner عن القائمة أو الطاولة.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "l13-ex-1",
           "german": "Haben Sie ein Einzelzimmer?",
           "transliterationAr": "هابن زي آين أينتسل تسيمر؟",
           "meaningAr": "هل لديكم غرفة مفردة؟"
+        },
+        {
+          "id": "l13-ex-2",
+          "german": "Geben Sie mir den Schlüssel, bitte.",
+          "transliterationAr": "غيبن زي مير دين شلوسل، بيته",
+          "meaningAr": "أعطني المفتاح، من فضلك."
+        },
+        {
+          "id": "l13-ex-3",
+          "german": "Geben Sie mir die Speisekarte.",
+          "transliterationAr": "غيبن زي مير دي شبايزه كارتة",
+          "meaningAr": "أعطني قائمة الطعام."
         }
       ],
-      "summary": "## الخلاصة\nأفضل طريقة لهذا النوع من الدروس هي التكرار الصوتي وتمثيل الموقف بصيغة سؤال وجواب.",
+      "summary": "## الخلاصة\nركّز في هذا الدرس على أفعال الطلب المهذبة مع **bitte**، وعلى أسماء الخدمات الأساسية داخل الفندق والمطعم.",
       "sourcePages": [
-        20,
-        30,
+        39,
         40,
-        70,
+        41
+      ]
+    }
+  },
+  {
+    "id": "lesson-14",
+    "slug": "shopping-clothing-and-store-navigation",
+    "number": 14,
+    "title": "التسوق والملابس والتنقل داخل المتاجر",
+    "description": "من أقسام الأحذية والأقمشة والمتاجر: السؤال عن المقاس والسعر وطلب التجربة والبحث عن المتجر المناسب.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
+    "unitSlug": "everyday-usage",
+    "level": "A1",
+    "duration": 55,
+    "status": "published",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "skillFocus": [
+      "vocabulary",
+      "conversation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nتمتد أقسام المتاجر في الكتاب من صفحات الأحذية والأقمشة والبقالة إلى صفحات أسماء المتاجر والهدية والملابس والطوابق. لذلك جرى تحويلها إلى درس واحد متماسك لخدمة المتعلم في التسوق الحقيقي.",
+      "objectives": [
+        "السؤال عن المقاس والسعر والبديل الأرخص",
+        "استخدام مفردات الأقمشة والملابس والهدايا",
+        "فهم عبارات المتاجر والطوابق وطلب التجربة"
+      ],
+      "sections": [
+        {
+          "title": "المقاس والسعر",
+          "body": "في صفحات الأحذية والأقمشة تتكرر أسئلة المقاس والسعر: Größe 42، و Wie viel kostet es?، وطلب شيء billiger أو ثلاثة أمتار من Stoff. هذا يجعل الدرس عملياً جداً في التسوق اليومي.",
+          "kind": "usage"
+        },
+        {
+          "title": "أنواع المتاجر والتنقل بداخلها",
+          "body": "تضيف صفحات 78–80 أسماء المتاجر، وعبارات مثل Darf ich das probieren? و Wo kann man gut Kleidung kaufen? وكذلك السؤال عن الطابق الذي توجد فيه الأحذية أو الأقسام المختلفة.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "l14-ex-1",
+          "german": "Ich möchte gern Männer Schuhe Größe 42 haben.",
+          "transliterationAr": "إيش موشته غيرن مينر شوهه غروسه تسفاي أوند فيرتسيش هابن",
+          "meaningAr": "أريد حذاءً رجاليّاً مقاس 42."
+        },
+        {
+          "id": "l14-ex-2",
+          "german": "Darf ich das probieren?",
+          "transliterationAr": "دارف إيش داس بروبيرن؟",
+          "meaningAr": "هل يمكنني أن أجرّب هذا؟"
+        },
+        {
+          "id": "l14-ex-3",
+          "german": "Wo kann man gut Kleidung kaufen?",
+          "transliterationAr": "فو كان مان غوت كلايدونغ كاوفن؟",
+          "meaningAr": "أين يمكن شراء ملابس جيدة؟"
+        }
+      ],
+      "summary": "## الخلاصة\nهذا الدرس يربط بين مفردات التسوق والعبارات الجاهزة، لذلك احفظ الكلمات داخل جمل مثل **Ich möchte...** و **Wo kann man...**.",
+      "sourcePages": [
+        52,
+        53,
+        54,
+        55,
+        78,
+        79,
         80
+      ]
+    }
+  },
+  {
+    "id": "lesson-15",
+    "slug": "directions-and-asking-for-help",
+    "number": 15,
+    "title": "الاتجاهات وطلب المساعدة",
+    "description": "يعتمد على صفحات التوجيهات وطلب المساعدة: السؤال عن الطريق، شرح الأماكن، والتنبيه إلى ضياع الطريق أو فوات القطار.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
+    "unitSlug": "everyday-usage",
+    "level": "A1",
+    "duration": 45,
+    "status": "published",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "skillFocus": [
+      "vocabulary",
+      "conversation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nصفحتا 87 و88 من أنفع صفحات الكتاب للمسافر: فيهما كلمات الاتجاهات، وعبارات طلب المساعدة، وجمل شائعة عند ضياع الطريق أو فوات القطار والحافلة.",
+      "objectives": [
+        "السؤال عن الطريق إلى مكان محدد",
+        "فهم مفردات الاتجاهات القريبة مثل أمام وبجوار وعند الإشارة",
+        "طلب المساعدة عند ضياع الطريق أو فوات وسيلة النقل"
+      ],
+      "sections": [
+        {
+          "title": "مفردات الاتجاهات",
+          "body": "تعطي هذه الصفحات مخزوناً عملياً جداً: Gegenüber و Neben و in der Nähe von و Ampel و Ecke، ثم جملة Immer geradeaus. لذلك يسهل على المتعلم فهم الإرشادات أو إعطاؤها بشكل مختصر.",
+          "kind": "usage"
+        },
+        {
+          "title": "طلب المساعدة وشرح المشكلة",
+          "body": "ينتقل الدرس بعد ذلك إلى عبارات المساعدة مثل Können Sie mir helfen? و Können Sie mir auf der Karte zeigen? مع جمل توضح أن المتعلم ضاع أو فاته القطار أو أنه يتكلم قليلاً من الألمانية فقط.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "l15-ex-1",
+          "german": "Wie komme ich zur Autobahn?",
+          "transliterationAr": "في كومه إيش تسور أوتوبان؟",
+          "meaningAr": "كيف أصل إلى الطريق السريع؟"
+        },
+        {
+          "id": "l15-ex-2",
+          "german": "Können Sie mir auf der Karte zeigen?",
+          "transliterationAr": "كونن زي مير آوف دير كارتة تسايغن؟",
+          "meaningAr": "هل يمكن أن تدلني على الخريطة؟"
+        },
+        {
+          "id": "l15-ex-3",
+          "german": "Ich spreche nur sehr wenig Deutsch.",
+          "transliterationAr": "إيش شبريشه نور زير فِنيغ دويتش",
+          "meaningAr": "أنا أتحدث القليل جداً من الألمانية."
+        }
+      ],
+      "summary": "## الخلاصة\nأهم ما في هذا الدرس هو مزج مفردة المكان مع فعل السؤال أو المساعدة، مثل **Wo / Wie** مع **kommen** و **zeigen** و **helfen**.",
+      "sourcePages": [
+        87,
+        88
+      ]
+    }
+  },
+  {
+    "id": "lesson-16",
+    "slug": "emergencies-police-and-complaints",
+    "number": 16,
+    "title": "الطوارئ والشرطة والشكاوى",
+    "description": "يجمع مفردات الطوارئ والإبلاغ عن السرقة وفقدان الجواز، مع عبارات الشكوى واسترداد المال في المشكلات العملية.",
+    "unitId": "unit-everyday",
+    "unitTitle": "المواقف اليومية والسفر والخدمات",
+    "unitSlug": "everyday-usage",
+    "level": "A1",
+    "duration": 55,
+    "status": "published",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "skillFocus": [
+      "vocabulary",
+      "conversation"
+    ],
+    "questionCount": 5,
+    "exerciseCount": 3,
+    "vocabularyCount": 10,
+    "updatedAt": "2026-09-07",
+    "content": {
+      "introduction": "## مقدمة\nتجمع الصفحات 85–86 و89–90 بين مفردات الطوارئ والشرطة، وبين ضياع الجواز ومكتب المفقودات ومشكلات الغرف والشكوى واسترجاع المال. لذلك قُدمت هنا كحزمة عملية أخيرة في المنهج.",
+      "objectives": [
+        "التعامل مع مواقف الطوارئ الأساسية بسرعة",
+        "الإبلاغ عن سرقة أو ضياع جواز أو الحاجة إلى الشرطة",
+        "شرح مشكلة في الغرفة أو طلب استرجاع المال وتقديم شكوى"
+      ],
+      "sections": [
+        {
+          "title": "الطوارئ والإبلاغ",
+          "body": "من أهم ما في هذا الجزء أسماء الجهات التي تُستدعى فوراً: Polizei و Krankenwagen و Feuerwehr، ثم عبارات الإبلاغ مثل Ich möchte einen Diebstahl melden و Bitte, rufen Sie die Polizei.",
+          "kind": "usage"
+        },
+        {
+          "title": "المشكلات الرسمية والشكاوى",
+          "body": "تتابع الصفحات بعد ذلك مع Fundbüro، وضياع الجواز، ومشكلة الغرفة، وتقديم الشكوى أو طلب استرجاع المال. لذلك يفيد الدرس المسافر في المواقف الحساسة التي تحتاج لغة مباشرة وواضحة.",
+          "kind": "usage"
+        }
+      ],
+      "pronunciationRules": [],
+      "examples": [
+        {
+          "id": "l16-ex-1",
+          "german": "Bitte, rufen Sie die Polizei.",
+          "transliterationAr": "بيته، روفن زي دي بوليتساي",
+          "meaningAr": "من فضلك اتصل بالشرطة."
+        },
+        {
+          "id": "l16-ex-2",
+          "german": "Ich möchte einen Diebstahl melden.",
+          "transliterationAr": "إيش موشته آينن ديبشتال ميلدن",
+          "meaningAr": "أريد أن أبلغ عن سرقة."
+        },
+        {
+          "id": "l16-ex-3",
+          "german": "Ich habe ein Problem mit dem Zimmer.",
+          "transliterationAr": "إيش هابه آين بروبليم مِت ديم تسيمر",
+          "meaningAr": "لدي مشكلة في الغرفة."
+        }
+      ],
+      "summary": "## الخلاصة\nفي هذا الدرس احفظ الصيغة الجاهزة كاملة كما هي، لأن مواقف الطوارئ لا تحتمل التردد: **Bitte...**, **Ich möchte melden...**, **Ich habe ein Problem...**.",
+      "sourcePages": [
+        85,
+        86,
+        89,
+        90
       ]
     }
   }

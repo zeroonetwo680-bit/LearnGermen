@@ -42,13 +42,13 @@
     "id": "unit-everyday",
     "slug": "everyday-usage",
     "order": 4,
-    "title": "المفردات والاستعمال اليومي",
-    "description": "مفردات عملية وتعبيرات جاهزة للحياة اليومية والسفر والتعاملات الأساسية.",
+    "title": "المواقف اليومية والسفر والخدمات",
+    "description": "انتقل من الأفعال والاستعمالات العملية إلى السفر والفندق والتسوق والاتجاهات والطوارئ.",
     "icon": "MessagesSquare",
     "color": "violet",
-    "lessonCount": 3,
-    "questionCount": 15,
-    "vocabularyCount": 32,
-    "exerciseCount": 9
+    "lessonCount": 7,
+    "questionCount": 35,
+    "vocabularyCount": 71,
+    "exerciseCount": 21
   }
 ]

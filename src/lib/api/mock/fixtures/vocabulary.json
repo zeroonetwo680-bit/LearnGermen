@@ -1489,45 +1489,199 @@
   {
     "id": "v-12-1",
     "lessonId": "lesson-12",
-    "german": "Entschuldigung",
-    "transliterationAr": "إنتشولديغونغ",
-    "meaningAr": "عذراً / اعتذار",
-    "partOfSpeech": "phrase",
-    "tags": [
-      "محادثات",
-      "سفر"
-    ],
-    "exampleGerman": "Entschuldigung, ich habe mich verspätet.",
-    "exampleTransliterationAr": "إنتشولديغونغ، إيش هابه ميش فرشبييتت",
-    "exampleMeaningAr": "عذراً، لقد تأخرت."
-  },
-  {
-    "id": "v-12-2",
-    "lessonId": "lesson-12",
     "german": "Fahrkarte",
     "transliterationAr": "فاركارته",
     "meaningAr": "تذكرة سفر",
     "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "سفر",
+      "مطار",
+      "حجز"
     ],
     "article": "die",
     "plural": "Fahrkarten",
     "exampleGerman": "Ich möchte eine Fahrkarte.",
-    "exampleTransliterationAr": "إيش موشته آينه فاركارتة",
+    "exampleTransliterationAr": "إيش موشته آينه فاركارته",
     "exampleMeaningAr": "أريد تذكرة سفر."
+  },
+  {
+    "id": "v-12-2",
+    "lessonId": "lesson-12",
+    "german": "Flughafen",
+    "transliterationAr": "فلوغهافن",
+    "meaningAr": "مطار",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "der",
+    "exampleGerman": "Der Flughafen ist nicht weit.",
+    "exampleTransliterationAr": "دير فلوغهافن إيست نيشت فايت",
+    "exampleMeaningAr": "المطار ليس بعيداً."
   },
   {
     "id": "v-12-3",
     "lessonId": "lesson-12",
+    "german": "Reisepass",
+    "transliterationAr": "رايزباس",
+    "meaningAr": "جواز سفر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "der",
+    "exampleGerman": "Geben Sie mir Ihren Reisepass.",
+    "exampleTransliterationAr": "غيبن زي مير إيرن رايزباس",
+    "exampleMeaningAr": "أعطني جواز سفرك."
+  },
+  {
+    "id": "v-12-4",
+    "lessonId": "lesson-12",
+    "german": "reservieren",
+    "transliterationAr": "ريزرفيرن",
+    "meaningAr": "يحجز",
+    "partOfSpeech": "verb",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "exampleGerman": "Ich möchte einen Platz reservieren.",
+    "exampleTransliterationAr": "إيش موشته آينن بلاتس ريزرفيرن",
+    "exampleMeaningAr": "أريد أن أحجز مقعداً."
+  },
+  {
+    "id": "v-12-5",
+    "lessonId": "lesson-12",
+    "german": "Flugkarte",
+    "transliterationAr": "فلوغكارته",
+    "meaningAr": "تذكرة طيران",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-12-6",
+    "lessonId": "lesson-12",
+    "german": "Informationbüro",
+    "transliterationAr": "إنفورماتسيون بيرو",
+    "meaningAr": "مكتب المعلومات",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-12-7",
+    "lessonId": "lesson-12",
+    "german": "Taxi",
+    "transliterationAr": "تاكسي",
+    "meaningAr": "سيارة أجرة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-12-8",
+    "lessonId": "lesson-12",
+    "german": "Platz",
+    "transliterationAr": "بلاتس",
+    "meaningAr": "مقعد / مكان",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-12-9",
+    "lessonId": "lesson-12",
+    "german": "Gewicht",
+    "transliterationAr": "غفيشت",
+    "meaningAr": "وزن",
+    "partOfSpeech": "noun",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-12-10",
+    "lessonId": "lesson-12",
+    "german": "mitnehmen",
+    "transliterationAr": "ميتنيمين",
+    "meaningAr": "يصطحب معه / يحمل معه",
+    "partOfSpeech": "verb",
+    "tags": [
+      "سفر",
+      "مطار",
+      "حجز"
+    ]
+  },
+  {
+    "id": "v-13-1",
+    "lessonId": "lesson-13",
+    "german": "Hotel",
+    "transliterationAr": "هوتيل",
+    "meaningAr": "فندق",
+    "partOfSpeech": "noun",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ],
+    "article": "das",
+    "exampleGerman": "Ich möchte ein Hotel erster Klasse.",
+    "exampleTransliterationAr": "إيش موشته آين هوتيل إرستر كلاسه",
+    "exampleMeaningAr": "أريد فندقاً من الدرجة الأولى."
+  },
+  {
+    "id": "v-13-2",
+    "lessonId": "lesson-13",
+    "german": "Zimmer",
+    "transliterationAr": "تسيمر",
+    "meaningAr": "غرفة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ],
+    "article": "das",
+    "exampleGerman": "Haben Sie ein Zimmer frei?",
+    "exampleTransliterationAr": "هابن زي آين تسيمر فراي؟",
+    "exampleMeaningAr": "هل لديكم غرفة شاغرة؟"
+  },
+  {
+    "id": "v-13-3",
+    "lessonId": "lesson-13",
     "german": "Einzelzimmer",
     "transliterationAr": "أينتسل تسيمر",
     "meaningAr": "غرفة مفردة",
     "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "فندق",
+      "مطعم",
+      "خدمة"
     ],
     "article": "das",
     "exampleGerman": "Haben Sie ein Einzelzimmer?",
@@ -1535,105 +1689,554 @@
     "exampleMeaningAr": "هل لديكم غرفة مفردة؟"
   },
   {
-    "id": "v-12-4",
-    "lessonId": "lesson-12",
-    "german": "Reservieren",
-    "transliterationAr": "ريزرفيرن",
-    "meaningAr": "يحجز",
-    "partOfSpeech": "verb",
-    "tags": [
-      "محادثات",
-      "سفر"
-    ]
-  },
-  {
-    "id": "v-12-5",
-    "lessonId": "lesson-12",
+    "id": "v-13-4",
+    "lessonId": "lesson-13",
     "german": "Schlüssel",
     "transliterationAr": "شلوسل",
     "meaningAr": "مفتاح",
     "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "فندق",
+      "مطعم",
+      "خدمة"
     ],
     "article": "der",
-    "plural": "Schlüssel"
+    "plural": "Schlüssel",
+    "exampleGerman": "Geben Sie mir den Schlüssel, bitte.",
+    "exampleTransliterationAr": "غيبن زي مير دين شلوسل، بيته",
+    "exampleMeaningAr": "أعطني المفتاح، من فضلك."
   },
   {
-    "id": "v-12-6",
-    "lessonId": "lesson-12",
+    "id": "v-13-5",
+    "lessonId": "lesson-13",
     "german": "Frühstück",
     "transliterationAr": "فروشتوك",
     "meaningAr": "فطور",
     "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "فندق",
+      "مطعم",
+      "خدمة"
     ],
     "article": "das"
   },
   {
-    "id": "v-12-7",
-    "lessonId": "lesson-12",
-    "german": "ausgehen",
-    "transliterationAr": "آوسغيهن",
-    "meaningAr": "يخرج",
-    "partOfSpeech": "verb",
-    "tags": [
-      "محادثات",
-      "سفر"
-    ]
-  },
-  {
-    "id": "v-12-8",
-    "lessonId": "lesson-12",
-    "german": "morgen",
-    "transliterationAr": "مورغن",
-    "meaningAr": "غداً",
-    "partOfSpeech": "adverb",
-    "tags": [
-      "محادثات",
-      "سفر"
-    ]
-  },
-  {
-    "id": "v-12-9",
-    "lessonId": "lesson-12",
-    "german": "Geschäft",
-    "transliterationAr": "غشيفت",
-    "meaningAr": "محل / متجر",
+    "id": "v-13-6",
+    "lessonId": "lesson-13",
+    "german": "Handtuch",
+    "transliterationAr": "هانتوخ",
+    "meaningAr": "منشفة",
     "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "فندق",
+      "مطعم",
+      "خدمة"
     ],
-    "article": "das",
-    "plural": "Geschäfte"
+    "article": "das"
   },
   {
-    "id": "v-12-10",
-    "lessonId": "lesson-12",
+    "id": "v-13-7",
+    "lessonId": "lesson-13",
+    "german": "Kellner",
+    "transliterationAr": "كيلنر",
+    "meaningAr": "نادل",
+    "partOfSpeech": "noun",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-13-8",
+    "lessonId": "lesson-13",
+    "german": "Speisekarte",
+    "transliterationAr": "شبايزه كارتة",
+    "meaningAr": "قائمة الطعام",
+    "partOfSpeech": "noun",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-13-9",
+    "lessonId": "lesson-13",
+    "german": "Tisch",
+    "transliterationAr": "تيش",
+    "meaningAr": "طاولة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-13-10",
+    "lessonId": "lesson-13",
+    "german": "wecken",
+    "transliterationAr": "فيكن",
+    "meaningAr": "يوقظ",
+    "partOfSpeech": "verb",
+    "tags": [
+      "فندق",
+      "مطعم",
+      "خدمة"
+    ]
+  },
+  {
+    "id": "v-14-1",
+    "lessonId": "lesson-14",
+    "german": "Schuhe",
+    "transliterationAr": "شوهه",
+    "meaningAr": "أحذية",
+    "partOfSpeech": "noun",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "die",
+    "plural": "Schuhe",
+    "exampleGerman": "Ich möchte gern Männer Schuhe Größe 42 haben.",
+    "exampleTransliterationAr": "إيش موشته غيرن مينر شوهه غروسه 42 هابن",
+    "exampleMeaningAr": "أريد حذاءً رجاليّاً مقاس 42."
+  },
+  {
+    "id": "v-14-2",
+    "lessonId": "lesson-14",
+    "german": "Größe",
+    "transliterationAr": "غروسه",
+    "meaningAr": "مقاس",
+    "partOfSpeech": "noun",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "die",
+    "exampleGerman": "Größe 42",
+    "exampleTransliterationAr": "غروسه 42",
+    "exampleMeaningAr": "المقاس 42"
+  },
+  {
+    "id": "v-14-3",
+    "lessonId": "lesson-14",
+    "german": "billiger",
+    "transliterationAr": "بيليغر",
+    "meaningAr": "أرخص",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "exampleGerman": "Ich hätte es billiger.",
+    "exampleTransliterationAr": "إيش هِته إس بيليغر",
+    "exampleMeaningAr": "أريده أرخص."
+  },
+  {
+    "id": "v-14-4",
+    "lessonId": "lesson-14",
+    "german": "Stoff",
+    "transliterationAr": "شتوف",
+    "meaningAr": "قماش",
+    "partOfSpeech": "noun",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "der",
+    "exampleGerman": "Ich hätte gern drei Meter von diesem Stoff.",
+    "exampleTransliterationAr": "إيش هِته غيرن دراي ميتر فون ديسم شتوف",
+    "exampleMeaningAr": "أريد ثلاثة أمتار من هذا القماش."
+  },
+  {
+    "id": "v-14-5",
+    "lessonId": "lesson-14",
+    "german": "Meter",
+    "transliterationAr": "ميتر",
+    "meaningAr": "متر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-14-6",
+    "lessonId": "lesson-14",
     "german": "Kleidung",
     "transliterationAr": "كلايدونغ",
     "meaningAr": "ملابس",
     "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "تسوق",
+      "ملابس",
+      "متاجر"
     ],
     "article": "die"
   },
   {
-    "id": "v-12-11",
-    "lessonId": "lesson-12",
-    "german": "bitte",
-    "transliterationAr": "بيته",
-    "meaningAr": "من فضلك",
-    "partOfSpeech": "phrase",
+    "id": "v-14-7",
+    "lessonId": "lesson-14",
+    "german": "Geschäft",
+    "transliterationAr": "غشيفت",
+    "meaningAr": "متجر / محل",
+    "partOfSpeech": "noun",
     "tags": [
-      "محادثات",
-      "سفر"
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "das",
+    "plural": "Geschäfte"
+  },
+  {
+    "id": "v-14-8",
+    "lessonId": "lesson-14",
+    "german": "Geschenk",
+    "transliterationAr": "غشينك",
+    "meaningAr": "هدية",
+    "partOfSpeech": "noun",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-14-9",
+    "lessonId": "lesson-14",
+    "german": "probieren",
+    "transliterationAr": "بروبيرن",
+    "meaningAr": "يجرّب",
+    "partOfSpeech": "verb",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ]
+  },
+  {
+    "id": "v-14-10",
+    "lessonId": "lesson-14",
+    "german": "Stockwerk",
+    "transliterationAr": "شتوكفيرك",
+    "meaningAr": "طابق",
+    "partOfSpeech": "noun",
+    "tags": [
+      "تسوق",
+      "ملابس",
+      "متاجر"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-15-1",
+    "lessonId": "lesson-15",
+    "german": "Gegenüber",
+    "transliterationAr": "غيغن أوبَر",
+    "meaningAr": "مقابل / في الجهة المقابلة",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "exampleGerman": "Die Bank ist gegenüber.",
+    "exampleTransliterationAr": "دي بانك إيست غيغن أوبَر",
+    "exampleMeaningAr": "المصرف في الجهة المقابلة."
+  },
+  {
+    "id": "v-15-2",
+    "lessonId": "lesson-15",
+    "german": "Neben",
+    "transliterationAr": "نيبن",
+    "meaningAr": "بجوار",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "exampleGerman": "Das Hotel ist neben dem Markt.",
+    "exampleTransliterationAr": "داس هوتيل إيست نيبن ديم ماركت",
+    "exampleMeaningAr": "الفندق بجوار السوق."
+  },
+  {
+    "id": "v-15-3",
+    "lessonId": "lesson-15",
+    "german": "Ampel",
+    "transliterationAr": "أمبل",
+    "meaningAr": "إشارة مرور",
+    "partOfSpeech": "noun",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "article": "die",
+    "exampleGerman": "An der Ampel links.",
+    "exampleTransliterationAr": "آن دير أمبل لينكس",
+    "exampleMeaningAr": "عند الإشارة انعطف يساراً."
+  },
+  {
+    "id": "v-15-4",
+    "lessonId": "lesson-15",
+    "german": "Ecke",
+    "transliterationAr": "إكه",
+    "meaningAr": "زاوية / ناصية",
+    "partOfSpeech": "noun",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "article": "die",
+    "exampleGerman": "An der Ecke rechts.",
+    "exampleTransliterationAr": "آن دير إكه ريختس",
+    "exampleMeaningAr": "عند الزاوية انعطف يميناً."
+  },
+  {
+    "id": "v-15-5",
+    "lessonId": "lesson-15",
+    "german": "Karte",
+    "transliterationAr": "كارتة",
+    "meaningAr": "خريطة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-15-6",
+    "lessonId": "lesson-15",
+    "german": "geradeaus",
+    "transliterationAr": "غراده آوس",
+    "meaningAr": "إلى الأمام مباشرة",
+    "partOfSpeech": "adverb",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ]
+  },
+  {
+    "id": "v-15-7",
+    "lessonId": "lesson-15",
+    "german": "helfen",
+    "transliterationAr": "هلفن",
+    "meaningAr": "يساعد",
+    "partOfSpeech": "verb",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ]
+  },
+  {
+    "id": "v-15-8",
+    "lessonId": "lesson-15",
+    "german": "Autobahn",
+    "transliterationAr": "أوتوبان",
+    "meaningAr": "طريق سريع",
+    "partOfSpeech": "noun",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-15-9",
+    "lessonId": "lesson-15",
+    "german": "verlaufen",
+    "transliterationAr": "فيرلاوفن",
+    "meaningAr": "يضل الطريق مشياً",
+    "partOfSpeech": "verb",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ]
+  },
+  {
+    "id": "v-15-10",
+    "lessonId": "lesson-15",
+    "german": "verpasst",
+    "transliterationAr": "فيرباسْت",
+    "meaningAr": "فوّت / فاته",
+    "partOfSpeech": "adjective",
+    "tags": [
+      "اتجاهات",
+      "مساعدة",
+      "تنقل"
+    ],
+    "notes": "تأتي في جمل مثل Ich habe meinen Zug verpasst."
+  },
+  {
+    "id": "v-16-1",
+    "lessonId": "lesson-16",
+    "german": "Polizei",
+    "transliterationAr": "بوليتساي",
+    "meaningAr": "شرطة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "die",
+    "exampleGerman": "Bitte, rufen Sie die Polizei.",
+    "exampleTransliterationAr": "بيته، روفن زي دي بوليتساي",
+    "exampleMeaningAr": "من فضلك اتصل بالشرطة."
+  },
+  {
+    "id": "v-16-2",
+    "lessonId": "lesson-16",
+    "german": "Krankenwagen",
+    "transliterationAr": "كرانكنفاغن",
+    "meaningAr": "سيارة إسعاف",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "der",
+    "exampleGerman": "Wir brauchen einen Krankenwagen.",
+    "exampleTransliterationAr": "فير براوخن آينن كرانكنفاغن",
+    "exampleMeaningAr": "نحتاج إلى سيارة إسعاف."
+  },
+  {
+    "id": "v-16-3",
+    "lessonId": "lesson-16",
+    "german": "Feuerwehr",
+    "transliterationAr": "فويافير",
+    "meaningAr": "إطفاء",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "die",
+    "exampleGerman": "Rufen Sie die Feuerwehr.",
+    "exampleTransliterationAr": "روفن زي دي فويافير",
+    "exampleMeaningAr": "اتصلوا بالإطفاء."
+  },
+  {
+    "id": "v-16-4",
+    "lessonId": "lesson-16",
+    "german": "Unfall",
+    "transliterationAr": "أونفال",
+    "meaningAr": "حادث",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "der",
+    "exampleGerman": "Ein Unfall ist passiert.",
+    "exampleTransliterationAr": "آين أونفال إيست باسييرت",
+    "exampleMeaningAr": "وقع حادث."
+  },
+  {
+    "id": "v-16-5",
+    "lessonId": "lesson-16",
+    "german": "Polizeiwache",
+    "transliterationAr": "بوليتساي فاخِه",
+    "meaningAr": "مركز شرطة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "die"
+  },
+  {
+    "id": "v-16-6",
+    "lessonId": "lesson-16",
+    "german": "Diebstahl",
+    "transliterationAr": "ديبشتال",
+    "meaningAr": "سرقة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-16-7",
+    "lessonId": "lesson-16",
+    "german": "Pass",
+    "transliterationAr": "باس",
+    "meaningAr": "جواز / وثيقة سفر",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "der"
+  },
+  {
+    "id": "v-16-8",
+    "lessonId": "lesson-16",
+    "german": "Fundbüro",
+    "transliterationAr": "فوند بيرو",
+    "meaningAr": "مكتب المفقودات",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-16-9",
+    "lessonId": "lesson-16",
+    "german": "Problem",
+    "transliterationAr": "بروبليم",
+    "meaningAr": "مشكلة",
+    "partOfSpeech": "noun",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
+    ],
+    "article": "das"
+  },
+  {
+    "id": "v-16-10",
+    "lessonId": "lesson-16",
+    "german": "beschweren",
+    "transliterationAr": "بِشفيغن",
+    "meaningAr": "يشتكي / يقدم شكوى",
+    "partOfSpeech": "verb",
+    "tags": [
+      "طوارئ",
+      "شرطة",
+      "شكاوى"
     ]
   }
 ]

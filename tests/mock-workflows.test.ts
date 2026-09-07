@@ -38,6 +38,7 @@ describe("mock workflows", () => {
     expect(units).toHaveLength(4);
     expect(units[0].slug).toBe("pronunciation-foundations");
     expect(units[0].lessonCount).toBe(3);
+    expect(units[3].lessonCount).toBe(7);
     expect(units[3].vocabularyCount).toBeGreaterThan(0);
   });
 
@@ -49,8 +50,8 @@ describe("mock workflows", () => {
 
     expect(arabic.items.some((lesson) => lesson.slug === "alphabet-and-letter-sounds")).toBe(true);
     expect(german.items.some((lesson) => lesson.slug === "everyday-vocabulary-and-mini-dialogues")).toBe(true);
-    expect(paged.meta.total).toBe(12);
-    expect(paged.meta.totalPages).toBe(3);
+    expect(paged.meta.total).toBe(16);
+    expect(paged.meta.totalPages).toBe(4);
   });
 
   test("lesson detail works and unknown slug throws 404", async () => {
@@ -66,9 +67,10 @@ describe("mock workflows", () => {
 
   test("vocabulary and exercises endpoints return structured data", async () => {
     const lessonsApi = client().lessons;
-    const vocabulary = await lessonsApi.vocabulary("common-verbs");
-    const exercises = await lessonsApi.exercises("common-verbs");
+    const vocabulary = await lessonsApi.vocabulary("hotel-restaurant-and-service-requests");
+    const exercises = await lessonsApi.exercises("hotel-restaurant-and-service-requests");
     expect(vocabulary[0]).toMatchObject({ german: expect.any(String), transliterationAr: expect.any(String), meaningAr: expect.any(String) });
+    expect(vocabulary.some((item) => item.german === "Hotel" || item.german === "Zimmer")).toBe(true);
     expect(exercises).toHaveLength(3);
   });
 

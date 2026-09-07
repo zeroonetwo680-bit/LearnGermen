@@ -934,24 +934,24 @@
     "items": [
       {
         "id": "1",
-        "left": "Entschuldigung",
-        "right": "عذراً / اعتذار",
-        "answer": "عذراً / اعتذار"
-      },
-      {
-        "id": "2",
         "left": "Fahrkarte",
         "right": "تذكرة سفر",
         "answer": "تذكرة سفر"
       },
       {
+        "id": "2",
+        "left": "Flughafen",
+        "right": "مطار",
+        "answer": "مطار"
+      },
+      {
         "id": "3",
-        "left": "Einzelzimmer",
-        "right": "غرفة مفردة",
-        "answer": "غرفة مفردة"
+        "left": "Reisepass",
+        "right": "جواز سفر",
+        "answer": "جواز سفر"
       }
     ],
-    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الشكل الألماني والمعنى العربي."
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الكلمة الألمانية والمعنى العربي في الموقف العملي."
   },
   {
     "id": "e-12-2",
@@ -964,18 +964,18 @@
     "items": [
       {
         "id": "1",
-        "prompt": "عذراً / اعتذار = ____",
-        "answer": "Entschuldigung"
-      },
-      {
-        "id": "2",
         "prompt": "تذكرة سفر = ____",
         "answer": "Fahrkarte"
       },
       {
+        "id": "2",
+        "prompt": "مطار = ____",
+        "answer": "Flughafen"
+      },
+      {
         "id": "3",
-        "prompt": "غرفة مفردة = ____",
-        "answer": "Einzelzimmer"
+        "prompt": "جواز سفر = ____",
+        "answer": "Reisepass"
       }
     ],
     "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
@@ -991,18 +991,354 @@
     "items": [
       {
         "id": "1",
-        "text": "Entschuldigung, ich habe mich verspätet.",
-        "answer": "عذراً، لقد تأخرت."
-      },
-      {
-        "id": "2",
         "text": "Ich möchte eine Fahrkarte.",
         "answer": "أريد تذكرة سفر."
       },
       {
+        "id": "2",
+        "text": "Wie kann ich zum Flughafen kommen?",
+        "answer": "كيف يمكنني الوصول إلى المطار؟"
+      },
+      {
         "id": "3",
+        "text": "Geben Sie mir Ihren Reisepass.",
+        "answer": "أعطني جواز سفرك."
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-13-1",
+    "lessonId": "lesson-13",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Hotel",
+        "right": "فندق",
+        "answer": "فندق"
+      },
+      {
+        "id": "2",
+        "left": "Zimmer",
+        "right": "غرفة",
+        "answer": "غرفة"
+      },
+      {
+        "id": "3",
+        "left": "Einzelzimmer",
+        "right": "غرفة مفردة",
+        "answer": "غرفة مفردة"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الكلمة الألمانية والمعنى العربي في الموقف العملي."
+  },
+  {
+    "id": "e-13-2",
+    "lessonId": "lesson-13",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "فندق = ____",
+        "answer": "Hotel"
+      },
+      {
+        "id": "2",
+        "prompt": "غرفة = ____",
+        "answer": "Zimmer"
+      },
+      {
+        "id": "3",
+        "prompt": "غرفة مفردة = ____",
+        "answer": "Einzelzimmer"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-13-3",
+    "lessonId": "lesson-13",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
         "text": "Haben Sie ein Einzelzimmer?",
         "answer": "هل لديكم غرفة مفردة؟"
+      },
+      {
+        "id": "2",
+        "text": "Geben Sie mir den Schlüssel, bitte.",
+        "answer": "أعطني المفتاح، من فضلك."
+      },
+      {
+        "id": "3",
+        "text": "Geben Sie mir die Speisekarte.",
+        "answer": "أعطني قائمة الطعام."
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-14-1",
+    "lessonId": "lesson-14",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Schuhe",
+        "right": "أحذية",
+        "answer": "أحذية"
+      },
+      {
+        "id": "2",
+        "left": "Größe",
+        "right": "مقاس",
+        "answer": "مقاس"
+      },
+      {
+        "id": "3",
+        "left": "billiger",
+        "right": "أرخص",
+        "answer": "أرخص"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الكلمة الألمانية والمعنى العربي في الموقف العملي."
+  },
+  {
+    "id": "e-14-2",
+    "lessonId": "lesson-14",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "أحذية = ____",
+        "answer": "Schuhe"
+      },
+      {
+        "id": "2",
+        "prompt": "مقاس = ____",
+        "answer": "Größe"
+      },
+      {
+        "id": "3",
+        "prompt": "أرخص = ____",
+        "answer": "billiger"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-14-3",
+    "lessonId": "lesson-14",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Ich möchte gern Männer Schuhe Größe 42 haben.",
+        "answer": "أريد حذاءً رجاليّاً مقاس 42."
+      },
+      {
+        "id": "2",
+        "text": "Darf ich das probieren?",
+        "answer": "هل يمكنني أن أجرّب هذا؟"
+      },
+      {
+        "id": "3",
+        "text": "Wo kann man gut Kleidung kaufen?",
+        "answer": "أين يمكن شراء ملابس جيدة؟"
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-15-1",
+    "lessonId": "lesson-15",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Gegenüber",
+        "right": "مقابل / في الجهة المقابلة",
+        "answer": "مقابل / في الجهة المقابلة"
+      },
+      {
+        "id": "2",
+        "left": "Neben",
+        "right": "بجوار",
+        "answer": "بجوار"
+      },
+      {
+        "id": "3",
+        "left": "Ampel",
+        "right": "إشارة مرور",
+        "answer": "إشارة مرور"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الكلمة الألمانية والمعنى العربي في الموقف العملي."
+  },
+  {
+    "id": "e-15-2",
+    "lessonId": "lesson-15",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "مقابل / في الجهة المقابلة = ____",
+        "answer": "Gegenüber"
+      },
+      {
+        "id": "2",
+        "prompt": "بجوار = ____",
+        "answer": "Neben"
+      },
+      {
+        "id": "3",
+        "prompt": "إشارة مرور = ____",
+        "answer": "Ampel"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-15-3",
+    "lessonId": "lesson-15",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Wie komme ich zur Autobahn?",
+        "answer": "كيف أصل إلى الطريق السريع؟"
+      },
+      {
+        "id": "2",
+        "text": "Können Sie mir auf der Karte zeigen?",
+        "answer": "هل يمكن أن تدلني على الخريطة؟"
+      },
+      {
+        "id": "3",
+        "text": "Ich spreche nur sehr wenig Deutsch.",
+        "answer": "أنا أتحدث القليل جداً من الألمانية."
+      }
+    ],
+    "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."
+  },
+  {
+    "id": "e-16-1",
+    "lessonId": "lesson-16",
+    "order": 1,
+    "type": "matching",
+    "title": "طابق الكلمة بالمعنى",
+    "instructions": "صل كل مفردة بالمعنى العربي المناسب.",
+    "prompt": "اختر المطابقة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "left": "Polizei",
+        "right": "شرطة",
+        "answer": "شرطة"
+      },
+      {
+        "id": "2",
+        "left": "Krankenwagen",
+        "right": "سيارة إسعاف",
+        "answer": "سيارة إسعاف"
+      },
+      {
+        "id": "3",
+        "left": "Feuerwehr",
+        "right": "إطفاء",
+        "answer": "إطفاء"
+      }
+    ],
+    "explanation": "يساعدك هذا التمرين على الربط المباشر بين الكلمة الألمانية والمعنى العربي في الموقف العملي."
+  },
+  {
+    "id": "e-16-2",
+    "lessonId": "lesson-16",
+    "order": 2,
+    "type": "fill-blank",
+    "title": "أكمل الفراغ",
+    "instructions": "اكتب الكلمة الألمانية المناسبة اعتماداً على المعنى.",
+    "prompt": "املأ الفراغات بالمفردة الصحيحة.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "شرطة = ____",
+        "answer": "Polizei"
+      },
+      {
+        "id": "2",
+        "prompt": "سيارة إسعاف = ____",
+        "answer": "Krankenwagen"
+      },
+      {
+        "id": "3",
+        "prompt": "إطفاء = ____",
+        "answer": "Feuerwehr"
+      }
+    ],
+    "explanation": "راجع النطق المكتوب قبل الإجابة ثم حاول الكتابة من الذاكرة."
+  },
+  {
+    "id": "e-16-3",
+    "lessonId": "lesson-16",
+    "order": 3,
+    "type": "translation",
+    "title": "ترجمة ذاتية قصيرة",
+    "instructions": "اقرأ العبارة ثم قارنها بالإجابة النموذجية.",
+    "prompt": "حاول ترجمة أو تفسير الجملة.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Bitte, rufen Sie die Polizei.",
+        "answer": "من فضلك اتصل بالشرطة."
+      },
+      {
+        "id": "2",
+        "text": "Ich möchte einen Diebstahl melden.",
+        "answer": "أريد أن أبلغ عن سرقة."
+      },
+      {
+        "id": "3",
+        "text": "Ich habe ein Problem mit dem Zimmer.",
+        "answer": "لدي مشكلة في الغرفة."
       }
     ],
     "explanation": "هذا النوع من التمارين مناسب للمراجعة السريعة قبل الاختبار."

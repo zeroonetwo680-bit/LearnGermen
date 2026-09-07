@@ -1534,23 +1534,23 @@
     "options": [
       {
         "id": "a",
-        "text": "فندق"
-      },
-      {
-        "id": "b",
         "text": "تذكرة سفر"
       },
       {
+        "id": "b",
+        "text": "مطار"
+      },
+      {
         "id": "c",
-        "text": "مفتاح"
+        "text": "جواز سفر"
       },
       {
         "id": "d",
-        "text": "اعتذار"
+        "text": "يحجز"
       }
     ],
     "correctAnswers": [
-      "b"
+      "a"
     ],
     "explanation": "Fahrkarte تعني تذكرة سفر.",
     "points": 1
@@ -1559,67 +1559,67 @@
     "id": "q-12-2",
     "lessonId": "lesson-12",
     "type": "single-choice",
-    "question": "أي عبارة تستخدم للاعتذار؟",
+    "question": "أي كلمة ألمانية تعني مطار؟",
     "options": [
       {
         "id": "a",
-        "text": "bitte"
+        "text": "Fahrkarte"
       },
       {
         "id": "b",
-        "text": "Entschuldigung"
+        "text": "Flughafen"
       },
       {
         "id": "c",
-        "text": "morgen"
+        "text": "Reisepass"
       },
       {
         "id": "d",
-        "text": "Geschäft"
+        "text": "reservieren"
       }
     ],
     "correctAnswers": [
       "b"
     ],
-    "explanation": "Entschuldigung تستخدم للاعتذار.",
+    "explanation": "Flughafen = مطار.",
     "points": 1
   },
   {
     "id": "q-12-3",
     "lessonId": "lesson-12",
     "type": "multiple-choice",
-    "question": "اختر كلمات مرتبطة بموقف الفندق أو السفر.",
+    "question": "اختر كلمات مرتبطة بموضوع المطار والسفر.",
     "options": [
       {
         "id": "a",
-        "text": "Einzelzimmer"
+        "text": "Fahrkarte"
       },
       {
         "id": "b",
-        "text": "Schlüssel"
+        "text": "Flughafen"
       },
       {
         "id": "c",
-        "text": "Kleidung"
+        "text": "Reisepass"
       },
       {
         "id": "d",
-        "text": "Fahrkarte"
+        "text": "Handtuch"
       }
     ],
     "correctAnswers": [
       "a",
       "b",
-      "d"
+      "c"
     ],
-    "explanation": "Kleidung تعني ملابس وهي للتسوق أكثر.",
+    "explanation": "Handtuch هنا كلمة مشتتة وليست من الكلمات الأساسية المقصودة في هذا السؤال.",
     "points": 1
   },
   {
     "id": "q-12-4",
     "lessonId": "lesson-12",
     "type": "true-false",
-    "question": "morgen تعني غداً.",
+    "question": "reservieren تعني يحجز.",
     "options": [
       {
         "id": "true",
@@ -1633,36 +1633,592 @@
     "correctAnswers": [
       "true"
     ],
-    "explanation": "morgen = غداً.",
+    "explanation": "نعم، reservieren = يحجز.",
     "points": 1
   },
   {
     "id": "q-12-5",
     "lessonId": "lesson-12",
     "type": "single-choice",
-    "question": "ما معنى Haben Sie ein Einzelzimmer?",
+    "question": "ما معنى الجملة Ich möchte eine Fahrkarte.؟",
     "options": [
       {
         "id": "a",
-        "text": "هل عندكم غرفة مفردة؟"
-      },
-      {
-        "id": "b",
         "text": "أريد تذكرة سفر."
       },
       {
+        "id": "b",
+        "text": "كيف يمكنني الوصول إلى المطار؟"
+      },
+      {
         "id": "c",
-        "text": "أين المحل؟"
+        "text": "أعطني جواز سفرك."
       },
       {
         "id": "d",
-        "text": "أعطني المفتاح."
+        "text": "تذكرة طيران"
       }
     ],
     "correctAnswers": [
       "a"
     ],
-    "explanation": "الجملة تسأل عن غرفة مفردة.",
+    "explanation": "الجملة تعني: أريد تذكرة سفر.",
+    "points": 1
+  },
+  {
+    "id": "q-13-1",
+    "lessonId": "lesson-13",
+    "type": "single-choice",
+    "question": "ما معنى Hotel؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "فندق"
+      },
+      {
+        "id": "b",
+        "text": "غرفة"
+      },
+      {
+        "id": "c",
+        "text": "غرفة مفردة"
+      },
+      {
+        "id": "d",
+        "text": "مفتاح"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Hotel تعني فندق.",
+    "points": 1
+  },
+  {
+    "id": "q-13-2",
+    "lessonId": "lesson-13",
+    "type": "single-choice",
+    "question": "أي كلمة ألمانية تعني غرفة؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hotel"
+      },
+      {
+        "id": "b",
+        "text": "Zimmer"
+      },
+      {
+        "id": "c",
+        "text": "Einzelzimmer"
+      },
+      {
+        "id": "d",
+        "text": "Schlüssel"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Zimmer = غرفة.",
+    "points": 1
+  },
+  {
+    "id": "q-13-3",
+    "lessonId": "lesson-13",
+    "type": "multiple-choice",
+    "question": "اختر كلمات مرتبطة بموضوع الفندق والمطعم.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hotel"
+      },
+      {
+        "id": "b",
+        "text": "Zimmer"
+      },
+      {
+        "id": "c",
+        "text": "Einzelzimmer"
+      },
+      {
+        "id": "d",
+        "text": "Autobahn"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Autobahn هنا كلمة مشتتة وليست من الكلمات الأساسية المقصودة في هذا السؤال.",
+    "points": 1
+  },
+  {
+    "id": "q-13-4",
+    "lessonId": "lesson-13",
+    "type": "true-false",
+    "question": "Schlüssel تعني مفتاح.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "نعم، Schlüssel = مفتاح.",
+    "points": 1
+  },
+  {
+    "id": "q-13-5",
+    "lessonId": "lesson-13",
+    "type": "single-choice",
+    "question": "ما معنى الجملة Haben Sie ein Einzelzimmer?؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "هل لديكم غرفة مفردة؟"
+      },
+      {
+        "id": "b",
+        "text": "أعطني المفتاح، من فضلك."
+      },
+      {
+        "id": "c",
+        "text": "أعطني قائمة الطعام."
+      },
+      {
+        "id": "d",
+        "text": "فطور"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "الجملة تعني: هل لديكم غرفة مفردة؟",
+    "points": 1
+  },
+  {
+    "id": "q-14-1",
+    "lessonId": "lesson-14",
+    "type": "single-choice",
+    "question": "ما معنى Schuhe؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "أحذية"
+      },
+      {
+        "id": "b",
+        "text": "مقاس"
+      },
+      {
+        "id": "c",
+        "text": "أرخص"
+      },
+      {
+        "id": "d",
+        "text": "قماش"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Schuhe تعني أحذية.",
+    "points": 1
+  },
+  {
+    "id": "q-14-2",
+    "lessonId": "lesson-14",
+    "type": "single-choice",
+    "question": "أي كلمة ألمانية تعني مقاس؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schuhe"
+      },
+      {
+        "id": "b",
+        "text": "Größe"
+      },
+      {
+        "id": "c",
+        "text": "billiger"
+      },
+      {
+        "id": "d",
+        "text": "Stoff"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Größe = مقاس.",
+    "points": 1
+  },
+  {
+    "id": "q-14-3",
+    "lessonId": "lesson-14",
+    "type": "multiple-choice",
+    "question": "اختر كلمات مرتبطة بموضوع التسوق والمتاجر.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schuhe"
+      },
+      {
+        "id": "b",
+        "text": "Größe"
+      },
+      {
+        "id": "c",
+        "text": "billiger"
+      },
+      {
+        "id": "d",
+        "text": "Polizei"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Polizei هنا كلمة مشتتة وليست من الكلمات الأساسية المقصودة في هذا السؤال.",
+    "points": 1
+  },
+  {
+    "id": "q-14-4",
+    "lessonId": "lesson-14",
+    "type": "true-false",
+    "question": "Stoff تعني قماش.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "نعم، Stoff = قماش.",
+    "points": 1
+  },
+  {
+    "id": "q-14-5",
+    "lessonId": "lesson-14",
+    "type": "single-choice",
+    "question": "ما معنى الجملة Ich möchte gern Männer Schuhe Größe 42 haben.؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "أريد حذاءً رجاليّاً مقاس 42."
+      },
+      {
+        "id": "b",
+        "text": "هل يمكنني أن أجرّب هذا؟"
+      },
+      {
+        "id": "c",
+        "text": "أين يمكن شراء ملابس جيدة؟"
+      },
+      {
+        "id": "d",
+        "text": "متر"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "الجملة تعني: أريد حذاءً رجاليّاً مقاس 42.",
+    "points": 1
+  },
+  {
+    "id": "q-15-1",
+    "lessonId": "lesson-15",
+    "type": "single-choice",
+    "question": "ما معنى Gegenüber؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "مقابل / في الجهة المقابلة"
+      },
+      {
+        "id": "b",
+        "text": "بجوار"
+      },
+      {
+        "id": "c",
+        "text": "إشارة مرور"
+      },
+      {
+        "id": "d",
+        "text": "زاوية / ناصية"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Gegenüber تعني مقابل / في الجهة المقابلة.",
+    "points": 1
+  },
+  {
+    "id": "q-15-2",
+    "lessonId": "lesson-15",
+    "type": "single-choice",
+    "question": "أي كلمة ألمانية تعني بجوار؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gegenüber"
+      },
+      {
+        "id": "b",
+        "text": "Neben"
+      },
+      {
+        "id": "c",
+        "text": "Ampel"
+      },
+      {
+        "id": "d",
+        "text": "Ecke"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Neben = بجوار.",
+    "points": 1
+  },
+  {
+    "id": "q-15-3",
+    "lessonId": "lesson-15",
+    "type": "multiple-choice",
+    "question": "اختر كلمات مرتبطة بموضوع الاتجاهات والمساعدة.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gegenüber"
+      },
+      {
+        "id": "b",
+        "text": "Neben"
+      },
+      {
+        "id": "c",
+        "text": "Ampel"
+      },
+      {
+        "id": "d",
+        "text": "Frühstück"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Frühstück هنا كلمة مشتتة وليست من الكلمات الأساسية المقصودة في هذا السؤال.",
+    "points": 1
+  },
+  {
+    "id": "q-15-4",
+    "lessonId": "lesson-15",
+    "type": "true-false",
+    "question": "Ecke تعني زاوية / ناصية.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "نعم، Ecke = زاوية / ناصية.",
+    "points": 1
+  },
+  {
+    "id": "q-15-5",
+    "lessonId": "lesson-15",
+    "type": "single-choice",
+    "question": "ما معنى الجملة Wie komme ich zur Autobahn?؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "كيف أصل إلى الطريق السريع؟"
+      },
+      {
+        "id": "b",
+        "text": "هل يمكن أن تدلني على الخريطة؟"
+      },
+      {
+        "id": "c",
+        "text": "أنا أتحدث القليل جداً من الألمانية."
+      },
+      {
+        "id": "d",
+        "text": "خريطة"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "الجملة تعني: كيف أصل إلى الطريق السريع؟",
+    "points": 1
+  },
+  {
+    "id": "q-16-1",
+    "lessonId": "lesson-16",
+    "type": "single-choice",
+    "question": "ما معنى Polizei؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "شرطة"
+      },
+      {
+        "id": "b",
+        "text": "سيارة إسعاف"
+      },
+      {
+        "id": "c",
+        "text": "إطفاء"
+      },
+      {
+        "id": "d",
+        "text": "حادث"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "Polizei تعني شرطة.",
+    "points": 1
+  },
+  {
+    "id": "q-16-2",
+    "lessonId": "lesson-16",
+    "type": "single-choice",
+    "question": "أي كلمة ألمانية تعني سيارة إسعاف؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "Polizei"
+      },
+      {
+        "id": "b",
+        "text": "Krankenwagen"
+      },
+      {
+        "id": "c",
+        "text": "Feuerwehr"
+      },
+      {
+        "id": "d",
+        "text": "Unfall"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "Krankenwagen = سيارة إسعاف.",
+    "points": 1
+  },
+  {
+    "id": "q-16-3",
+    "lessonId": "lesson-16",
+    "type": "multiple-choice",
+    "question": "اختر كلمات مرتبطة بموضوع الطوارئ والشكاوى.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Polizei"
+      },
+      {
+        "id": "b",
+        "text": "Krankenwagen"
+      },
+      {
+        "id": "c",
+        "text": "Feuerwehr"
+      },
+      {
+        "id": "d",
+        "text": "Kleidung"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Kleidung هنا كلمة مشتتة وليست من الكلمات الأساسية المقصودة في هذا السؤال.",
+    "points": 1
+  },
+  {
+    "id": "q-16-4",
+    "lessonId": "lesson-16",
+    "type": "true-false",
+    "question": "Unfall تعني حادث.",
+    "options": [
+      {
+        "id": "true",
+        "text": "صحيح"
+      },
+      {
+        "id": "false",
+        "text": "خطأ"
+      }
+    ],
+    "correctAnswers": [
+      "true"
+    ],
+    "explanation": "نعم، Unfall = حادث.",
+    "points": 1
+  },
+  {
+    "id": "q-16-5",
+    "lessonId": "lesson-16",
+    "type": "single-choice",
+    "question": "ما معنى الجملة Bitte, rufen Sie die Polizei.؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "من فضلك اتصل بالشرطة."
+      },
+      {
+        "id": "b",
+        "text": "أريد أن أبلغ عن سرقة."
+      },
+      {
+        "id": "c",
+        "text": "لدي مشكلة في الغرفة."
+      },
+      {
+        "id": "d",
+        "text": "مركز شرطة"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "الجملة تعني: من فضلك اتصل بالشرطة.",
     "points": 1
   }
 ]
