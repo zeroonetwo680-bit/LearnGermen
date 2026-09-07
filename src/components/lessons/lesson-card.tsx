@@ -14,7 +14,7 @@ const skillLabels: Record<LessonSummaryDto["skillFocus"][number], string> = {
 
 export function LessonCard({ lesson }: { lesson: LessonSummaryDto }) {
   return (
-    <article className="premium-card group relative overflow-hidden rounded-[1.8rem] p-5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_26px_55px_rgba(15,23,42,0.12)] dark:hover:shadow-[0_22px_48px_rgba(2,6,23,0.5)]">
+    <article className="premium-card interactive-lift group relative overflow-hidden rounded-[1.8rem] p-5">
       <div className="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-sky-500 via-cyan-400 to-violet-400" />
       <div className="absolute left-0 top-0 h-36 w-36 rounded-full bg-sky-500/10 blur-3xl transition group-hover:bg-sky-500/15" />
 
@@ -48,7 +48,7 @@ export function LessonCard({ lesson }: { lesson: LessonSummaryDto }) {
 
         <div className="mt-6 flex items-center justify-between gap-3">
           <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">{lesson.unitTitle}</span>
-          <Link href={`/lessons/${lesson.slug}`} className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-700 dark:bg-white dark:text-slate-950 dark:hover:bg-sky-100">
+          <Link href={`/lessons/${lesson.slug}`} className="button-shine pressable inline-flex items-center gap-2 rounded-full bg-slate-950 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-700 dark:bg-white dark:text-slate-950 dark:hover:bg-sky-100">
             عرض الدرس
             <ArrowUpLeft className="size-4" />
           </Link>
